@@ -31,6 +31,9 @@ source myenv/bin/activate  # or `myenv\Scripts\activate` on Windows
 # Install dependencies
 pip install -r requirements.txt
 
+# Add openai api key if you want to generate plant descriptions
+create .env file and add OPENAI_API_KEY=your_api_key to file
+
 # Run migrations
 python manage.py migrate
 
