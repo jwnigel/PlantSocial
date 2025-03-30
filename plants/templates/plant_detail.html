@@ -1,0 +1,237 @@
+{% load static %}
+{% load random_shuffle %}
+{% load custom_filters %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ plant.common_name }} - Plant Page</title>
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Nunito:ital@0;1&display=swap"
+        rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    {% block content %}
+
+    <div class="top-container">
+        <div class="left-two-thirds">
+            <div class="plant-header">
+                <img id="main-image" class="main-pic" src="{% static 'placeholder.jpg' %}" alt="{{ plant.common_name }}">                <div class="plant-info">
+                    <div class="center-me">
+                        <h1>{{ plant.common_name }}</h1>
+                        <h2>{{ plant.genus }} {{ plant.species }}</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="tag-container">
+                <div class="tags-wrapper">
+                    {% for emo in emojis.all %}
+                    <a href="{% url 'plants:db_view_by_tag' tag.slug %}" class="tag-anchor {{ tag }}-tag">
+                        {{ emo.emoji }}
+                    </a>
+                    {% empty %}
+                    <span>No tags added.</span>
+                    {% endfor %}
+                </div>
+
+                <div class="inline-tag-form">
+                    {% if user.is_authenticated %}
+                        {% include "includes/tag_form.html" %}
+                    {% else %}
+                        <p>Login to add a tag</p>
+                    {% endif %}
+                </div>
+            </div>
+            <p>{{ plant.description }}</p>
+        </div>
+        <div class="right-one-third">
+            <div class="row">
+                <div class="category">Zones</div>
+                <div class="value">{{ plant.zones|zone_range }}</div>
+            </div>
+            <div class="row">
+                <div class="category">Form</div>
+                <div class="value">{{ plant.form_size }} {{ plant.form }}</div>
+            </div>
+            <div class="row">
+                <div class="category">Height</div>
+                <div class="value">{{ plant.min_h }} - {{ plant.max_h }} ft</div>
+            </div>
+            <div class="row">
+                <div class="category">Width</div>
+                <div class="value">{{ plant.min_w }} - {{ plant.max_w }} ft</div>
+            </div>
+            <div class="row">
+                <div class="category">Moisture</div>
+                <div class="value">{{ plant.moisture }}</div>
+            </div>
+            <div class="row">
+                <div class="category">Light</div>
+                <div class="value">{{ plant.light }}</div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="carousel-container">
+        <div id="carousel" class="carousel">
+            <!-- Carousel items will be loaded here -->
+        </div>
+        <button class="carousel-button carousel-button-prev" aria-label="Previous image">&#10094;</button>
+        <button class="carousel-button carousel-button-next" aria-label="Next image">&#10095;</button>
+    </div>
+
+    <div class="comments">
+        {% with comments.count as total_comments %}
+        <h2>
+            {{ total_comment }} comment{{ total_comments|pluralize }}
+        </h2>
+        {% endwith %}
+        {% for comment in comments %}
+            <div class="comment">
+                <span class="comment-body">
+                    {{ comment.body|linebreaks }}
+                </span>
+                <span class="comment-info">
+                    -
+                    {{ comment.user_profile.user.username }} -
+                    {{ comment.created }}
+                </span>
+            </div>
+        {% empty %}
+            <p>No comments yet.</p>
+        {% endfor %}
+
+            <div class="comment-form">
+                {% if user.is_authenticated %}
+                    {% include "includes/comment_form.html" %}
+                {% else %}
+                    <p>Hey friend 👋 You must login to comment!</p>
+                {% endif %}
+            </div>
+
+        </div>
+
+
+    {% endblock %}
+
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Nigel Wright. <a href="your-bio-link.html">Bio</a></p>
+    </footer>
+
+    <!-- Add this right after your <body> tag, before any other content -->
+    <div class="overlay" id="imageOverlay">
+        <img src="" alt="Enlarged plant image" class="overlay-image" id="overlayImage">
+    </div>
+
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+    const plantSlug = '{{ plant.slug }}';
+    const overlay = document.getElementById('imageOverlay');
+    const overlayImage = document.getElementById('overlayImage');
+    const carousel = document.querySelector('.carousel');
+    const prevButton = document.querySelector('.carousel-button-prev');
+    const nextButton = document.querySelector('.carousel-button-next');
+    let items;
+    let currentIndex = 0;
+
+    function loadMainImage() {
+        fetch(`/plants/get-main-image/${plantSlug}/`)
+            .then(response => response.json())
+            .then(data => {
+                if (data.url) {
+                    const mainImage = document.getElementById('main-image');
+                    mainImage.src = data.url;
+                    mainImage.alt = data.alt;
+                    mainImage.addEventListener('click', function() {
+                        toggleOverlay(this.src);
+                    });
+                }
+            })
+            .catch(error => console.error('❌ Error loading main image:', error));
+    }
+
+    function updateCarousel() {
+        items = carousel.querySelectorAll('.carousel-item');
+        if (items.length > 0) {
+            const itemWidth = items[0].offsetWidth;
+            carousel.style.transform = `translateX(${-currentIndex * itemWidth}px)`;
+        }
+    }
+
+    function moveCarousel(direction) {
+        if (items && items.length > 0) {
+            currentIndex = (currentIndex + direction + items.length) % items.length;
+            updateCarousel();
+        }
+    }
+
+    function loadCarouselImages() {
+        fetch(`/plants/get-carousel-images/${plantSlug}/`)  
+            .then(response => response.json())
+            .then(images => {
+                carousel.innerHTML = ''; // Clear existing items
+                images.forEach(image => {
+                    const item = document.createElement('div');
+                    item.className = 'carousel-item';
+                    item.innerHTML = `
+                        <div class="image-wrapper">
+                            <img src="${image.url}" alt="${image.alt}" loading="lazy">
+                        </div>
+                    `;
+                    carousel.appendChild(item);
+                    item.querySelector('img').addEventListener('click', function() {
+                        toggleOverlay(this.src);
+                    });
+                });
+                updateCarousel();
+            })
+            .catch(error => console.error('❌ Error loading carousel images:', error));
+    }
+
+    function toggleOverlay(imageSrc) {
+        if (overlay.style.display === 'flex' && overlayImage.src === imageSrc) {
+            overlay.style.display = 'none';
+        } else {
+            overlayImage.src = imageSrc;
+            overlay.style.display = 'flex';
+        }
+    }
+
+    overlay.addEventListener('click', function() {
+        overlay.style.display = 'none';
+    });
+
+    overlayImage.addEventListener('click', function(e) {
+        e.stopPropagation();
+    });
+
+    prevButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        moveCarousel(-1);
+    });
+
+    nextButton.addEventListener('click', (e) => {
+        e.preventDefault();
+        moveCarousel(1);
+    });
+
+    // Initial setup
+    loadMainImage();
+    loadCarouselImages();
+
+    // Update carousel on window resize
+    window.addEventListener('resize', updateCarousel);
+});
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+<form action="{% url 'plants:plant_tag' plant.slug %}" method="post">
+    {% csrf_token %}
+    {{ tag_form.tags }}
+    <input type="submit" value="Add tag">
+</form>

@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    <form method="get">
+        {{ filter_form.as_p }}
+        <button type="submit">Filter</button>
+    </form>
+
+    {% if tag %}
+        <h2>Plants tagged with "{{ tag.name }}"</h2>
+        {% endif %}
+
+    {% for plant in page_obj %}
+        <div class="db-list-plant-name-wrapper">
+            <p>
+                <a href="{% url 'plants:plant_detail' plant.slug %}" class="db-list-plant-name">
+                    {{ plant.common_name }}
+                </a>
+                {% for tag in plant.tags.all %}
+                    <a href="{% url 'plants:db_view_by_tag' tag.slug %}" class="tag-anchor {{ tag }}-tag">
+                        {{ tag.name }}
+                    </a>
+                    <!-- {% if not forloop.last %}, {% endif %} -->
+                {% endfor %}
+            </p>
+        </div>
+    {% endfor %}
+
+    {% include 'pagination.html'  with page=plants %}
+{% endblock %}

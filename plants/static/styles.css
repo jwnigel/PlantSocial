@@ -1,0 +1,359 @@
+body {
+    font-family: Nunito, sans-serif;
+    margin: 100px auto;
+    padding: 0px 20px;
+    background-color: #f9f9f9;
+    width: 85%;
+  }
+
+  .top-container {
+    display: flex;
+    border-left: 0.5rem solid #007200;
+
+  }
+  
+  .plant-header {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+    min-height: 150px;
+  }
+  
+  .plant-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 0.7rem;
+    margin-left: 1rem;
+
+  }
+  
+  .plant-info h1 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-right: 3rem;
+    text-transform: capitalize;
+  }
+  
+  .plant-info h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 0.7rem;
+    color: #7f8c8d;
+    text-align: right;
+
+  }
+  
+  .center-me {
+    cursor: pointer;
+    transition: border-color 0.4s, transform 0.3s;
+    border-bottom: 0.2em solid #ccd2d2;
+
+  }
+  
+  .center-me:hover {
+    border-color: #007200;
+    /* transform: translate(0.1em, -0.2em); */
+  }
+  
+  .main-pic {
+    width: 220px;
+    height: 220px;
+    left: 20px;
+    object-fit: cover;
+    margin-right: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for a clean look */
+    transition: filter 0.3s, transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .main-pic:hover {
+    filter: brightness(110%);
+    transform: scale(1.05);
+    box-shadow: 0 0.5em 0.5em -0.4em black;
+  }
+  
+  p {
+    font-family: "Lora", serif;
+    font-size: 1rem;
+    letter-spacing: 0.03rem;
+    line-height: 1.8;
+    color: #34495e;
+    margin-top: 3rem;
+    margin-right: 3rem;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  button {
+    margin: 0rem 1.3rem;
+    cursor: pointer;
+    border-radius: 6%;
+    padding: 1rem 2rem;
+  }
+  
+  .db-list-plant-name-wrapper {
+    margin-top: 0.5em;
+  }
+  
+  .db-list-plant-name {
+    display: inline-block;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 0.1em solid transparent;
+    transition: color 0.3s, border-bottom-color 0.3s;
+  }
+  
+  .db-list-plant-name:hover {
+    color: #007200;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .carousel-container {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .carousel {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    padding-top: 3rem;
+  }
+
+  .carousel-item {
+    flex: 0 0 100%;
+    padding: 10px;
+  }
+
+  .image-wrapper {
+    width: 100%;
+    height: 80vh; /* 80% of viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+
+img {
+  border-radius: 2rem; /* Rounded corners */
+}
+
+  .carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+  }
+
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    height: 4rem;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  .carousel-button:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: #007200;
+  }
+
+  .carousel-button-prev {
+    left: 10px;
+  }
+
+  .carousel-button-next {
+    right: 10px;
+  }
+
+  @media (min-width: 768px) {
+    .carousel-item {
+        flex: 0 0 50%;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    .carousel-item {
+        flex: 0 0 33.33%;
+    }
+  }
+
+  /* Overlay styles */
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .overlay-image {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+  }
+
+  /* Ensure all images are clickable */
+  .main-pic, .carousel-item img {
+    cursor: pointer;
+  }
+
+  .left-two-thirds {
+    flex: 3;
+    padding: 20px; 
+}
+
+.right-one-third {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: #00720033;
+    border-radius: 2rem;
+    margin: 0 auto;
+    flex: 1;
+    padding: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between; /* Spread columns apart */
+  align-items: center; /* Align items vertically */
+  padding: 10px;
+}
+
+/* Left column: category */
+.category {
+  flex: 1; /* Takes up 1/3 of the row */
+  font-weight: bold; /* Optional: Bold text for category */
+  max-width: 33%; /* Ensure 1/3 width */
+}
+
+/* Right column: value */
+.value {
+  flex: 2; /* Takes up 2/3 of the row */
+  max-width: 66%; /* Ensure 2/3 width */
+}
+
+.comments {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.comment {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  border-bottom: 1px solid black;
+  margin: 0px;
+}
+
+.comment-body p {
+  display: inline-block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.comment-form form p {
+  margin-top: 0px;
+}
+
+textarea {
+  width: 100%; /* Make it occupy full horizontal space */
+  max-height: 4em; /* Limit max height to about 3 lines (adjust if needed) */
+  overflow-y: auto; /* Enable vertical scroll if content exceeds max height */
+  resize: vertical; /* Allow resizing only in the vertical direction */
+}
+
+.footer {
+  border-bottom: #007200 solid 0.5rem;
+  color: #000000;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 3rem;
+}
+
+.footer a {
+  text-decoration: underline;
+  padding-inline: 0.5rem;
+}
+
+.footer a:hover {
+  color: #007200;
+}
+
+.tag-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inline-tag-form {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.tags-wrapper {
+  display: flex;
+  flex-wrap: wrap; 
+}
+
+.tags {
+  margin: 0;
+}
+
+
+.tag-anchor {
+  background-color: lightblue;
+  border: 2px solid white;
+  color: white;
+  border-radius: 1rem;
+  text-decoration: none;
+  padding: 0.1rem 0.7rem;
+  margin: 0rem 0.2rem;
+}
+
+.nuts-tag {
+  background-color: brown;
+}
+
+.edible-tag {
+  background-color: yellow;
+  color: black;
+}
+
+.delicious-tag {
+  background-color: purple;
+}
+
+.permaculture-tag {
+  background-color: #007200;
+}

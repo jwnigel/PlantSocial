@@ -1,0 +1,627 @@
+,genus,species,common_name,family,zones,light,moisture,form_size,form,min_h,max_h,min_w,max_w
+2,Acacia,angustissima,prairie acacia,Fabaceae,"[7, 8, 9, 10]",fd,xm,m,Shrub,3,6,3,6
+3,Acacia,angustissima hirta,dwarf prairie acacia,Fabaceae,"[7, 8, 9, 10]",fd,xm,s,Shrub,1,3,1,6
+4,Acer,saccharinum,silver maple,Aceraceae,[3],fd,xmh,l,Tree,75,100,75,100
+5,Acer,saccharum,sugar maple,Aceraceae,"[3, 4, 5, 6, 7]",fds,m,l,Tree,75,100,50,75
+6,Acer,saccharum var. nigrum,black maple,Aceraceae,[3],fds,m,l,Tree,75,100,50,75
+7,Achillea,millefolium,yarrow,Asteraceae,"[3, 4, 5, 6, 7, 8, 9, 10]",f,xm,m,Herb,2,3,0,0
+8,Achillea,ptarmica,white tansy yarrow,Asteraceae,"[3, 4, 5, 6, 7]",f,xm,s,Herb,6,1,0,0
+9,Actinidia,arguta,hardy kiwifruit,Actinidlaceae,"[4, 5, 6, 7, 8]",f,m,h,Vine,20,100,20,100
+10,Actinidia,kolomikta,superhardy kiwifruit,Actinidiaceae,"[3, 4, 5, 6, 7, 8]",fd,m,h,Vine,20,100,20,100
+11,Actinidia,purpurea,purple hardy kiwifruit,Actinidiaceae,"[4, 5, 6, 7, 8]",f,m,h,Vine,20,100,20,100
+12,Adiantum,pedalum,maidenhair fern,Adiantaceae,"[3, 4, 5, 6, 7, 8]",ds,m,m,Herb,18,2,3,5
+13,Agastache,foeniculum,anise hyssop,Lamiaceae,"[3, 4, 5, 6, 7, 8]",fd,m,M-l,Herb,2,4,1,2
+14,Alcea,rosea,hollyhock,Malvaceae,[4],f,m,vl,Herb,7,7,2,2
+15,Allium,ampeloprasum,perennial sweet leek,Alliaceae,"[6, 7, 8, 9]",f,m,s-m,Herb,1,2,1,1
+16,Allium,canadense,wild garlic,Alliaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,s-m,Herb,6,2,1,1
+17,Allium,cepa aggregatum,"potato onion, shallot",Alliaceae,"[5, 6, 7, 8, 9]",f,m,s,Herb,1,1,1,1
+18,Allium,cepa proliferum,Egyptian walking onion,Alliaceae,"[5, 6, 7, 8, 9, 10]",f,m,m,Herb,2,2,2,5
+19,Allium,cernuum,nodding wild onion,Alliaceae,"[3, 4, 5, 6, 7, 8]",fd,m,s-m,Herb,1,2,1,2
+20,Allium,fistulosum,Welsh onion,Alliaceae,"[4, 5, 6, 7, 8, 9, 10]",f,m,m,Herb,2,3,1,2
+21,Allium,schoenoprasum,chives,Alliaceae,"[2, 3, 4, 5, 6, 7, 8, 9, 10]",fd,m,s-m,Herb,6,20,6,1.66666666666667
+22,Allium,tricoccum,ramps,Alliaceae,"[4, 5, 6, 7, 8]",ds,m,s,Herb,6,0.833333333333333,0,0
+23,Allium,tuberosum,garlic chives,Alliaceae,"[3, 4, 5, 6, 7, 8, 9, 10]",f,m,s-m,Herb,1.5,1.5,1,1
+24,Ainus,cordata,Italian alder,Betulaceae,[6],fd,xmh,m,Tree,30,50,20,35
+25,Alnus,incana,gray alder,Betulaceae,"[2, 3, 4, 5, 6]",fd,xmh,m-l,Tree,40,60,25,40
+26,Alnus,rugosa,speckled alder,Betulaceae,"[2, 3, 4, 5, 6]",fd,h,vl-xl,Shrub,20,35,20,35
+27,Alnus,serrulate,smooth alder,Betulaceae,"[5, 6, 7, 8]",fd,h,vl,Shrub,12,20,12,20
+28,Althaea,officinalis,marsh mallow,Malvaceae,"[3, 4, 5, 6, 7]",f,mh,m-l,Herb,2,4,2,4
+29,Amelanchier,alnifolia,saskatoon,Rosaceae,[2],f,m,m-vl,Shrub,5,15,5,15
+30,Amelanchier,bartramiana,Bartram's shadblow,Rosaceae,"[4, 5, 6, 7]",f,mh,s-l,Shrub,2,8,2,8
+31,Amelanchier,lamarkii,juneberry,Rosaceae,[3],f,m,xl,Shrub,35,50,20,35
+32,Amelanchier,obovalis,southern juneberry,Rosaceae,"[6, 7, 8]",f,m,l,Shrub,8,10,8,10
+33,Amelanchier,stolonifera,running juneberry,Rosaceae,[4],f,xm,m,Shrub,4,6,0,0
+34,Amorpha,canescens,leadplant,Fabaceae,[3],f,xm,s,Shrub,3,3,3,6
+35,Amorpha,fruticosa,false indigo,Fabaceae,[3],f,xmh,l-vl,Shrub,6,20,12,20
+36,Amorpha,nana,fragrant false indigo,Fabaceae,"[3, 4, 5, 6]",f,xm,s,Shrub,3,3,3,3
+37,Amorphophallus,riveri var. konjac,konjac,Araceae,"[6, 7, 8, 9, 10]",fd,m,l,Herb,4,5,3,4
+38,Amphicarpaea,bracteata,hog peanut,Fabaceae,"[3, 4, 5, 6, 7, 8, 9]",fds,m,I,Vine,1,3,1,3
+39,Andropogon,gerardii,big bluestem,Poaceae,[3],fd,xm,vl,Herb,5,6,3,4
+40,Antennaria,dioica,pussytoes,Asteraceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,p-s,Herb,2,0.833333333333333,1,1
+41,Antennaria,plantaginifolia,pussytoes,Asteraceae,"[3, 4, 5, 6, 7, 8, 9, 10]",fd,xm,p-s,Herb,2,0.833333333333333,0,0
+42,Apios,americana,groundnut,Fabaceae,"[3, 4, 5, 6, 7, 8, 9, 10]",fd,m,I,Vine,4,8,0,0
+43,Apios,fortunei,Fortune's groundnut,Fabaceae,[],fd,m,I,Vine,3,6,3,6
+44,Apios,priceana,Price's groundnut,Fabaceae,[6],fd,m,I,Vine,3,6,3,6
+45,Aquilegia,canadensis,columbine,Ranunculaceae,"[3, 4, 5, 6, 7, 8]",fds,m,s-m,Herb,1,2,1,2
+46,Arabis,caucasica,rock cress,Brassicaceae,"[4, 5, 6, 7, 8, 9, 10]",f,xm,s,Herb,6,1,1.5,1.5
+47,Aralia,cordata,udo,Araliaceae -,[4],fd,m,vl,Herb,6,9,6,9
+48,Aralia,elata,angelica tree,Araliaceae,[4],fd,m,vl,Shrub,15,30,15,20
+49,Aralia,hispida,bristly sarsaparilla,Araliaceae,[3],fd,xm,s,Shrub,1,3,1,3
+50,Aralia,nudicaulis,wild sarsaparilla,Araliaceae,[3],fd,m,s,Herb,12,1.5,0,0
+51,Aralia,racemosa,spikenard,Araliaceae,[4],fds,m,m,Shrub,3,6,3,6
+52,Araucaria,araucana,monkey puzzle tree,Araucariaceae,"[6, 7, 8]",f,m,l,Tree,100,100,50,50
+53,Arbutus,unedo,strawberry tree,Ericaceae,[8],f,m,l-vl,Shrub,6,20,6,9
+54,Arctostaphylos,uva-ursi,bearberry,Ericaceae,[2],f,xm,p,Shrub,2,0.5,0,0
+55,Armoracia,rusticana,horseradish,Brassicaceae,"[2, 3, 4, 5, 6, 7, 8]",fd,m,l,Herb,3,3,0,0
+56,Arnoglossum,atriplicitolia,pale Indian plantain,Asteraceae,[4],ds,m,l,Herb,3,6,3,3
+57,Aronia,arbutifolia,red chokeberry,Rosaceae,[4],fd,mh,l,Shrub,6,12,3,6
+58,Aronia,melanocarpa,black chokeberry,Rosaceae,[3],fd,xmh,s-m,Shrub,1.5,6,6,10
+59,Artemisia,dracunculus var. sativa,French tarragon,Asteraceae,[5],f,m,l,Herb,4,4,4,4
+60,Artemisia,frigida,fringed sagebrush,Asteraceae,[2],fd,xm,s,Herb,1.5,1.5,1.5,1.5
+61,Artemisia,stelleriana,beach wormwood,Asteraceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,m,Herb,2,2,3,3
+62,Arundinaria,gigantea,canebrake bamboo,Poaceae,"[6, 7, 8, 9]",fd,mh,l-vl,Bamboo,10,20,0,0
+63,Arundinaria,gigantea tecta,dwarf canebrake,Poaceae,"[6, 7, 8, 9]",fd,mh,m,Bamboo,6,6,0,0
+64,Asarum,canadense,wild ginger,Aristolochiaceae,"[3, 4, 5, 6, 7, 8]",ds,m,p-s,Herb,4,0.666666666666667,0,0
+65,Asarum,shuttlemrthii,Shuttleworth's ginger,Aristolochiaceae,"[6, 7, 8, 9]",ds,m,p-s,Herb,4,0.666666666666667,1.16666666666667,1.16666666666667
+66,Asarum,splendens,Chinese evergreen wild ginger,Aristolochiaceae,"[5, 6, 7, 8, 9]",ds,m,p-s,Herb,4,0.666666666666667,0,0
+67,Asclepias,incamata,swamp milkweed,Asclepiadaceae,"[3, 4, 5, 6, 7, 8, 9]",f,mh,l,Herb,3,5,1,2
+68,Asclepias,syriaca,milkweed,Asclepiadaceae,"[3, 4, 5, 6, 7, 8]",f,xmh,l,Herb,3,4,0,0
+69,Asimina,triloba,pawpaw,Annonaceae,"[5, 6, 7]",fds,m,s-m,Tree,20,35,20,35
+70,Asparagus,officinalis,asparagus,Asparagaceae,"[2, 3, 4, 5, 6, 7, 8, 9]",f,m,l,Herb,3,5,18,3
+71,Asphodeline,lutea,yellow asphodel,Asphodelaceae,"[6, 7, 8, 9]",fd,m,m,Herb,2,3,2,3
+72,Aster,divaricates,white wood aster,Asteraceae,"[4, 5, 6, 7, 8]",fds,m,m,Herb,2,2,2,2
+73,Aster,novae-angliae,New England aster,Asteraceae,"[3, 4, 5, 6, 7, 8, 9]",fd,mh,l,Herb,4,5,4,5
+74,Astragalus,canadensis,Canadian milk vetch,Fabaceae,"[3, 4, 5, 6, 7, 8]",fd,xm,s-l,Herb,1,4,0,0
+75,Astragalus,crassicarpus,groundplum milk vetch,Fabaceae,"[3, 4, 5, 6, 7, 8]",f,xm,s,Herb,6,15,1,2
+76,Astragalus,glycyphylios,milk vetch,Fabaceae,"[4, 5, 6, 7, 8]",f,xm,s,Herb,8,1,3,5
+77,Astragalus,membranaceous,huang-qi,Fabaceae,[5],f,xm,m,Herb,2,3,2,3
+78,Athyrium,filix-femina,lady fern,Dryopteridaceae,"[3, 4, 5, 6, 7, 8]",ds,mh,m-l,Herb,18,3,18,24
+79,Atriplex,halimus,saltbush,Chenopodiaceae,[7],f,xm,m,Shrub,6,6,9,9
+80,Balsamorhiza,sagittata,balsamroot sunflower,Asteraceae,[4],fd,xm,s-m,Herb,1,2,1,2
+81,Baptism,australis,wild blue indigo,Fabaceae,"[4, 5, 6, 7, 8]",fd,xm,m-l,Herb,2,4,2,5
+82,Baptists,tinctoria,yellow wild indigo,Fabaceae,"[4, 5, 6, 7, 8, 9]",fd,xm,m,Herb,2,3,2,5
+83,Beilis,perennis,English daisy,Asteraceae,"[4, 5, 6, 7, 8, 9, 10]",fd,m,p,Herb,0.5,0.5,1,2
+84,Berberis,canadensis,Canada barberry,Berberidaceae,"[4, 5, 6, 7, 8]",fd,xm,m,Shrub,5,5,3,5
+85,Beta,vulgaris maritima,sea beet,Chenopodiaceae,[7],fd,m,m,Herb,3,3,2,2
+86,Betula,alleghaniensis,yellow birch,Betulaceae,"[3, 4, 5, 6, 7]",fds,m,l,Tree,50,75,35,50
+87,Betula,lenta,black birch,Betulaceae,[3],fd,xm,l,Tree,50,75,35,50
+88,Blephilia,ciliata,downy wood mint,Lamiaceae,"[4, 5, 6, 7]",ds,xm,s-m,Herb,1,2,1,2
+89,Blephilia,hirsute,hairy wood mint,Lamiaceae,"[4, 5, 6, 7]",ds,m,s-m,Herb,1,2,1,2
+90,Borago,officinalis,borage,Boraginaceae,[3],f,m,a,Herb,1,2,9,1
+91,Brassica,oleracea,wild cabbage,Brassicaceae,[7],f,m,m,Herb,3,3,2,2
+92,Brassica,oleracea acephala,tree collards,Brassicaceae,[7],f,m,l,Herb,3,9,3,5
+93,Brassica,oleracea botrytis cv.,perennial broccoli 'Nine Star',Brassicaceae,[7],fd,m,m,Herb,18,3,18,3
+94,Bunias,orientalis,Turkish rocket,Brassicaceae,[4],fd,xm,m,Herb,18,3,1,2
+95,Bunium,bulbocastanum,earth chestnut,Apiaceae,[5],f,m,m,Herb,2,2,1,2
+96,Calamintha,nepeta,calamint savory purple poppy-mallow,Lamiaceae,"[6, 7, 8, 9, 10]",f,m,m,Herb,2,2,0,0
+97,Callirhoe,involucrata,purple poppy-mallow,Malvaceae,[4],fd,xm,p-s,Herb,3,0.833333333333333,4,5
+98,Calycanthus,floridus,Carolina allspice,Calycanthaceae,[5],fds,mh,l,Shrub,6,1,6,12
+99,Camassia,cusickii,Cusick's camass,Hyacinthaceae,"[5, 6, 7, 8]",fd,mh,m,Herb,1,2,1,1
+100,Camassia,leicbtlinnii,wild hyacinth,Hyacinthaceae,"[5, 6, 7, 8]",fd,mh,s-m,Herb,18,2.33333333333333,18,2.33333333333333
+101,Camassia,guamasli,camass,Hyacinthaceae,[4],f,mh,s-m,Herb,1,2,1,2
+102,Campanula,carpatica,Carpathian bellflower,Campanulaceae,"[3, 4, 5, 6, 7, 8]",fd,m,s,Herb,8,0.833333333333333,1.5,1.5
+103,Campanula,glomerata,clustered bellflower,Campanulaceae,[3],fd,m,m,Herb,3,3,2,2
+104,Campanula,portenschlagiana,Dalmatian bellflower,Campanulaceae,"[3, 4, 5, 6, 7]",fd,m,p-s,Herb,6,0.75,0,0
+105,Caragana,arborescens,Siberian pea shrub,Fabaceae,"[2, 3, 4, 5, 6, 7]",f,xm,l-vl,Shrub,8,20,12,18
+106,Caragana,frutex,Russian pea shrub,Fabaceae,"[2, 3, 4, 5, 6, 7]",f,xm,l,Shrub,6,10,6,10
+107,Caragana,pygmaea,pygmy pea shrub,Fabaceae,"[3, 4, 5, 6, 7]",f,xm,m,Shrub,4,4,4,4
+108,Cardamine,bulbosa,spring cress,Brassicaceae,"[4, 5, 6, 7, 8]",fd,mh,s-m,Herb,8,1.66666666666667,8,20
+109,Cardamine,diphylla,toothwort,Brassicaceae,"[3, 4, 5, 6, 7, 8]",ds,m,s,Herb,8,1.33333333333333,0,0
+110,Cardamine,pratensis,cuckoo flower,Brassicaceae,"[3, 4, 5, 6, 7]",fd,mh,s-m,Herb,8,1.66666666666667,8,20
+111,Carex,pensylvanica,Pennsylvania sedge,Cyperaceae,"[4, 5, 6, 7, 8]",fds,xm,s,Herb,0.833333333333333,0.833333333333333,1,1
+112,Carya,illinoinensis,pecan,Juglandaceae,"[6, 7, 8, 9]",f,m,l-vl,Tree,75,120,75,120
+113,Carya,laciniosa,shellbark hickory,Juglandaceae,[6],f,mh,l,Tree,70,85,30,50
+114,Carya,ovata,shagbark hickory,Juglandaceae,"[4, 5, 6, 7]",fd,xm,I,Tree,70,85,30,50
+115,Carya,x hybrids,bican,Juglandaceae,[5],f,m,l,Tree,75,75,50,50
+116,Castanea,dentata,American chestnut,Fagaceae,[4],fd,xm,l-vl,Tree,75,100,50,75
+117,Castanea,mollissima,Chinese chestnut,Fagaceae,[5],f,xm,m,Tree,25,35,25,35
+118,Castanea,pumila,chinquapin,Fagaceae,[5],f,xm,hi,Shrub,6,20,6,20
+119,Ceanothus,americanus,New Jersey tea,Rhamnaceae,[3],fd,xm,s,Shrub,3,3,3,6
+120,Ceanothus,prostratus,mahala mat,Rhamnaceae,"[7, 8, 9, 10]",fd,xm,p,Shrub,3,0.5,10,10
+121,Celtis,laevigata,sugarberry,Ulmaceae,[6],f,mh,I,Tree,60,100,60,100
+122,Celtis,occidentalis,hackberry,Ulmaceae,"[3, 4, 5, 6, 7]",fd,xmh,I,Tree,75,100,75,100
+123,Centranthus,ruber,red valerian,Valerianaceae,[6],fd,m,m,Herb,3,3,3,3
+124,Cephalotaxus,harringtonia,plum yew,Cephalotaxaceae,[6],fds,m,l-vl,Shrub,10,15,10,15
+125,Cercis,canadensis,redbud,Fabaceae,"[5, 6, 7, 8, 9]",fds,xm,s-m,Tree,20,35,20,35
+126,Cercocarpus,montanus,mountain mahogany,Rosaceae,[6],f,x,l-vl,Shrub,6,20,6,20
+127,Chaenomeles,speciosa,flowering quince,Rosaceae,"[4, 5, 6, 7, 8]",f,m,l,Shrub,6,10,6,10
+128,Chamaemelum,nobile,chamomile,Asteraceae,"[5, 6, 7, 8]",f,xm,p,Herb,3,0.5,1,1
+129,Chasmanthium,latifolium,northern sea oats,Poaceae,[5],fd,m,l,Herb,3,3,2,3
+130,Chenopodium,bonus-henricus,good King Henry,Chenopodiaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,m,s-m,Herb,1,3,12,1.5
+131,Chimaphila,maculata,pipsissewa,Pyrolaceae,"[4, 5, 6, 7]",ds,xm,p,Herb,0.333333333333333,0.333333333333333,0,0
+132,Chimaphila,umbellata,pipsissewa,Pyrolaceae,"[4, 5, 6, 7]",ds,xm,p-s,Herb,6,0.833333333333333,0,0
+133,Chrysogonum,virginianum,green and gold,Asteraceae,"[5, 6, 7, 8, 9]",fd,m,p,Herb,3,0.5,1.5,1.5
+134,Chrysosplenium,americanum,golden saxifrage,Saxifragaceae,"[3, 4, 5, 6, 7, 8]",ds,mh,p,Herb,2,0.416666666666667,2,2
+135,Cichorium,intybus,chicory,Asteraceae,[3],fd,m,s-l,Herb,1,4,1,2
+136,Claytonia,caroliniana,Carolina spring beauty,Portulacaceae,"[4, 5, 6, 7, 8]",ds,m,p-s,Herb,3,6,0,0
+137,Claytonia,megarhiza,alpine spring beauty,Portulacaceae,[2],f,m,p,Herb,0.333333333333333,0.333333333333333,0.333333333333333,0.333333333333333
+138,Claytonia,virginica,spring beauty,Portulacaceae,"[4, 5, 6, 7, 8]",ds,mh,p-s,Herb,3,1,0,0
+139,Clinopodium,glabellum,smooth-leaved satureja,Lamiaceae,[6],fd,m,m,Herb,1,2,0.333333333333333,0.333333333333333
+140,Clintonia,borealis,bluebead lily,Convallariaceae,"[3, 4, 5, 6, 7]",ds,m,s,Herb,6,1.5,6,1
+141,Citoria,matiana,butterfly pea,Fabaceae,"[6, 7, 8, 9]",fd,xm,l,Vine,2,3,2,3
+142,Colocasia,esculenta,taro,Araceae,"[7, 8, 9, 10]",fd,mh,I,Herb,4,5,4,5
+143,Colutea,arborescens,bladder senna,Fabaceae,"[5, 6, 7]",f,xm,l-vl,Shrub,6,15,6,9
+144,Commelina,erecta,Virginia dayflower,Commelinaceae,"[6, 7, 8, 9]",fd,m,m-I,Herb,18,3,18,3
+145,Comptonia,peregrina,sweetfern,Myricaceae,"[2, 3, 4, 5, 6]",fd,xm,s,Shrub,3,3,4,8
+146,Conodinium,coelestinum,hardy ageratum,Asteraceae,"[6, 7, 8, 9, 10]",fd,mh,s-m,Herb,12,2.5,0,0
+147,Conopodium,majus,pignut,Apiaceae,[6],fd,m,s,Herb,1,1,1,1
+148,Coptis,trifolia var. groenlandica,goldthread,Ranunculaceae,"[2, 3, 4, 5, 6, 7]",ds,mh,p,Herb,2,4,0,0
+149,Coreopsis,auriculata,dwarf tickseed,Asteraceae,"[5, 6, 7, 8, 9]",fd,m,s,Herb,6,1,1,1
+150,Coreopsis,rosea,pink tickseed,Asteraceae,"[4, 5, 6, 7, 8, 9]",f,xmh,m,Herb,1,2,0,0
+151,Coreopsis,vertidllata,thread-leaved coreopsis,Asteraceae,"[3, 4, 5, 6, 7, 8, 9]",f,xm,ra,Herb,1.5,1.5,3,3
+152,Cornus,canadensis,bunchberry,Comaceae,[2],fds,m,p-s,Shrub,4,9,0,0
+153,Cornus,florida,flowering dogwood,Comaceae,"[5, 6, 7, 8, 9]",fds,m,m,Tree,35,35,35,35
+154,Cornus,kousa,kousa dogwood,Comaceae,[5],fd,m,m,Tree,30,30,20,20
+155,Cornus,mas,cornelian cherry,Comaceae,[4],f,m,s,Tree,20,20,20,20
+156,Cornus,paniculate,gray dogwood,Comaceae,[3],fd,xm,l,Shrub,6,12,6,12
+157,Cornus,sericea,red osier dogwood,Comaceae,[4],f,mh,l,Shrub,6,12,6,12
+158,Corylus,americana,American hazel,Corylaceae,[3],f,m,l,Shrub,6,12,6,20
+159,Corylus,avellana,European filbert,Corylaceae,[4],f,m,vl,Shrub,12,25,25,25
+160,Corylus,chinensis,Chinese tree hazel,Corylaceae,[7],f,m,vl,Tree,120,120,75,75
+161,Corylus,colurna,tree hazel,Corylaceae,[5],f,m,l,Tree,80,80,30,30
+162,Corylus,cornuta,beaked hazel,Corylaceae,[3],f,m,l,Shrub,6,12,6,12
+163,Corylus,x colurnoides,trazel,Corylaceae,[5],f,m,l,Tree,60,60,40,40
+164,Corylus,x hybrids,"filazel, hazelbert",Corylaceae,[3],f,m,vl,Shrub,12,20,12,15
+165,Crambe,maritima,sea kale,Brassicaceae,"[4, 5, 6, 7, 8]",fd,xm,ra,Herb,2,3,3,3
+166,Crataegus,aestivalis,mayhaw,Rosaceae,"[6, 7, 8, 9]",f,xmh,m,Tree,27,27,27,27
+167,Crataegus,mollis,downy hawthorn,Rosaceae,[3],f,xm,m,Tree,35,50,35,50
+168,Crataegus,pinnatifida,Chinese haw,Rosaceae,[6],f,xm,s,Tree,21,21,21,21
+169,Crataegus,punctata,dotted hawthorn,Rosaceae,[4],f,xm,s-ra,Tree,20,35,20,35
+170,Crocus,sativus,saffron crocus,Iridaceae,[6],fd,m,p,Herb,0.5,0.5,0.5,0.5
+171,Cryptotaenia,canadensis,honewort,Apiaceae,"[3, 4, 5, 6, 7]",ds,m,s-m,Herb,1,3,1,2
+172,Cryptotaenia,japonica,mitsuba,Apiaceae,[5],ds,m,s-m,Herb,1,3,1,2
+173,Cudrania,tricuspidata,che fruit,Moraceae,"[5, 6, 7, 8, 9, 10]",f,xm,s,Tree,15,25,15,25
+174,Cunila,origanoides,Maryland dittany,lamiaceae,"[4, 5, 6, 7, 8, 9]",ds,m,s,Herb,8,1.33333333333333,6,1
+175,Cydonia,oblonga,quince,Rosaceae,"[5, 6, 7, 8, 9]",f,m,d-s,Tree,10,20,10,20
+176,Cymopterus,newberryi,corkwing,Apiaceae,[7],f,x,m,Herb,1,1,1,1
+177,Cymopterus,purpurascens,gamote,Apiaceae,[6],f,x,m,Herb,1,1,1,1
+178,Cytisus,decumbens,prostrate broom,Fabaceae,"[6, 7, 8]",f,xm,p-s,Shrub,4,0.666666666666667,3,3
+179,Darmera,peltata,Indian rhubarb,Saxifragaceae,"[5, 6, 7]",fd,mh,l,Herb,3,6,3,6
+180,Darmera,peltata nana,dwarf Indian rhubarb,Saxifragaceae,"[5, 6, 7]",fd,mh,s-ra,Herb,12,2.33333333333333,12,1.5
+181,Decaisnea,fargesii,blue bean,Lardizabalaceae,[7],fd,m,vI,Shrub,15,15,10,15
+182,Dennstaedtid,punctilobula,hayscented fern,Dennstaedtiaceae,"[3, 4, 5, 6, 7, 8]",fds,m,s-m,Herb,1,2,0,0
+183,Desmodium,canadense,showy tick trefoil,Fabaceae,"[3, 4, 5, 6]",fd,xm,m-l,Herb,2,6,1,3
+184,Desmodium,glutinosum,pointed-leaved tick trefoil,Fabaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,m,s-m,Herb,2,3,2,3
+185,Dicentra,eximia,dwarf bleeding heart,Fumariaceae,"[3, 4, 5, 6, 7, 8, 9]",d,m,s,Herb,12,1.5,12,1.5
+186,Dioscorea,batatas,Chinese yam,Dioscoreaceae,"[5, 6, 7, 8, 9, 10]",fd,m,I,Vine,10,10,10,10
+187,Dioscorea,japonica,jinenjo,Dioscoreaceae,"[4, 5, 6, 7, 8, 9, 10]",f,m,I,Vine,9,9,9,9
+188,Diospyros,kaki,kaki persimmon,Ebenaceae,"[7, 8, 9, 10]",f,m,m,Tree,25,40,25,40
+189,Diospyros,virginiana,American persimmon,Ebenaceae,"[5, 6, 7, 8, 9]",f,xm,l,Tree,50,75,35,50
+190,Diplotaxis,muralis,sylvetta arugula,Brassicaceae,[7],f,xm,s,Herb,1,1,1,1
+191,Diplotaxis,tenuifolia,sylvetta arugula,Brassicaceae,[7],f,xm,s,Herb,1,1,1,1
+192,Dryas,octopetala,mountain averts,Rosaceae,"[2, 3, 4]",fd,xm,p,Shrub,3,0.5,2,2
+193,Dryopteris,marginalis,marginal wood fern,Dryopteridaceae,"[3, 4, 5, 6, 7, 8, 9]",ds,m,m,Herb,1.5,1.5,3,3
+194,Echinacea,purpurea,purple coneflower,Asteraceae,"[3, 4, 5, 6, 7, 8]",fd,m,I,Herb,3,4,12,12
+195,Eleagnus,commutata,silverberry,Eleagnaceae,"[2, 3, 4, 5, 6]",f,xm,I,Shrub,6,12,6,12
+196,Eleagnus,multiflora,goumi,Eleagnaceae,"[5, 6, 7, 8]",fd,xm,I,Shrub,6,8,6,8
+197,Epigaea,repens,trailing arbutus,Ericaceae,[2],fd,xm,p,Shrub,4,0.5,0,0
+198,Epilobium,angustifolium,fireweed,Onagraceae,"[1, 2, 3, 4, 5, 6, 7, 8]",fd,mh,p-s,Herb,4,1.33333333333333,2,6
+199,Epilobium,latifolium,river beauty,Onagraceae,"[1, 2, 3, 4]",f,mh,I,Herb,4,6,4,6
+200,Equisetum,scirpoides,dwarf horsetail,Equisetaceae,"[1, 2, 3, 4, 5, 6, 7, 8, 9]",fd,mh,s,Herb,6,0.666666666666667,0,0
+201,Equisetum,sylvaticum,woodland horsetail,Equisetaceae,"[1, 2, 3, 4, 5]",ds,mh,s-m,Herb,10,1.66666666666667,0,0
+202,Erigenia,bulbosa,pepper and salt,Apiaceae,"[4, 5, 6, 7]",ds,m,p-s,Herb,4,0.75,4,0.416666666666667
+203,Erigeron,pulchellus,Robin's plantain,Asteraceae,[4],fd,m,s-m,Herb,12,1.66666666666667,12,1.66666666666667
+204,Eryngium,maritimum,sea holly,Apiaceae,[4],f,xm,m,Herb,2,2,2,2
+205,Erythronium,americanum,trout lily,Liliaceae,"[4, 5, 6, 7]",ds,m,p-s,Herb,5,0.833333333333333,0.416666666666667,0.416666666666667
+206,Eucalyptus,gunnii,cider gum,Myrtaceae,[7],fd,xm,I,Tree,80,80,25,25
+207,Fagus,grandifolia,American beech,Fagaceae,"[3, 4, 5, 6, 7, 8]",fds,m,I,Tree,75,100,50,75
+208,Fagus,sylvatica,European beech,Fagaceae,[5],fds,m,I,Tree,80,80,80,80
+209,Foeniculum,vulgare,fennel,Apiaceae,[6],f,xm,I,Herb,3,5,1,3
+210,Fragaria,chiloensis,beach strawberry,Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,p,Herb,0.5,0.5,0,0
+211,Fragaria,moschata,musk strawberry,Rosaceae,[5],fd,m,p-s,Herb,6,1,0,0
+212,Fragaria,vesca,woodland strawberry,Rosaceae,"[5, 6, 7, 8, 9, 10]",fd,m,s,Herb,0.666666666666667,0.666666666666667,0,0
+213,Fragaria,vesca alpina,alpine strawberry,Rosaceae,"[5, 6, 7, 8, 9, 10]",fd,m,s,Herb,0.833333333333333,0.833333333333333,0.833333333333333,0.833333333333333
+214,Fragaria,virginiana,wild strawberry,Rosaceae,"[4, 5, 6, 7, 8, 9]",fd,m,p-s,Herb,4,1,0,0
+215,Fragaria,ananassa,garden strawberry,Rosaceae,"[3, 4, 5, 6, 7, 8, 9, 10]",f,m,s,Herb,6,1,0,0
+216,Fritillaria,camschatcensis,Kamchatka lily,Liliaceae,[3],fd,m,m,Herb,1,3,0.5,0.5
+217,Galax,urceolata,galax,Diapensiaceae,"[5, 6, 7, 8, 9]",ds,m,s,Herb,6,1,0,0
+218,Gaultheria,hispidula,creeping snowberry,Ericaceae,[3],ds,m,p,Shrub,1,0.333333333333333,0,0
+219,Gaultheria,procumbens,wintergreen,Ericaceae,[3],ds,xm,p,Shrub,2,0.5,0,0
+220,Gaultheria,shallon,salal,Ericaceae,"[6, 7, 8]",fd,m,s-m,Shrub,1,6,0,0
+221,Gaylussacia,baccata,black huckleberry,Ericaceae,[3],fd,m,s,Shrub,3,3,0,0
+222,Gaylussacia,brachycera,box huckleberry,Ericaceae,"[5, 6, 7, 8, 9]",fd,m,p-s,Shrub,6,0.666666666666667,0,0
+223,Genista,pilosa,silky-leaf woodwaxen,Fabaceae,"[6, 7, 8]",fd,xm,s,Shrub,1,1,3,4
+224,Genista,pilosa procumbens,trailing silky-leaf woodwaxen,Fabaceae,"[6, 7, 8]",fd,xm,p,Shrub,0.166666666666667,0.166666666666667,3,3
+225,Genista,sagittalis,arrow broom,Fabaceae,"[3, 4, 5, 6, 7, 8]",fd,xm,p-s,Shrub,4,1.5,2,3
+226,Genista,tinctoria,dyer's greenwood,Fabaceae,"[4, 5, 6, 7]",f,xm,s,Shrub,2,3,2,3
+227,Geranium,maculatum,wild geranium,Geraniaceae,"[3, 4, 5, 6, 7, 8]",fd,m,s-m,Herb,1,2,2,3
+228,Geum,rivale,wateravens,Rosaceae,[3],fd,mh,m,Herb,2,2,1,2
+229,Geum,urbanum,clove root,Rosaceae,[7],fd,mh,m,Herb,2,2,1,2
+230,Ginkgo,biloba,maidenhair tree,Ginkgoaceae,[5],f,m,vl,Tree,130,130,10,30
+231,Gleditsia,triacanthos,honey locust,Fabaceae,"[4, 5, 6, 7, 8, 9]",f,xmh,l,Tree,50,75,50,75
+232,Glycyrrhiza,glabra,licorice,Fabaceae,[6],fd,m,l,Herb,3,6,0,0
+233,Glycyrrhiza,lepidota,American licorice,Fabaceae,"[3, 4, 5, 6, 7, 8]",fd,xm,m,Herb,1,3,0,0
+234,Glycyrrhiza,uralensis,Chinese licorice,Fabaceae,"[5, 6, 7, 8, 9]",fd,m,m,Herb,2,2,0,0
+235,Gymnocarpium,dryopteris,oakfem,Dryopteridaceae,"[2, 3, 4, 5, 6, 7]",ds,h,s,Herb,8,0.916666666666667,0,0
+236,Halesia,tetraptera,silverbelt,Styracaceae,[4],fds,m,s-m,Tree,20,40,15,30
+237,Hedysarum,boreale,sweet vetch,Fabaceae,[3],f,m,s-m,Herb,10,2,1.66666666666667,1.66666666666667
+238,Helianthus,decapetalus,thin-leaved sunflower,Asteraceae,"[2, 3, 4, 5, 6, 7, 8]",fd,m,l,Herb,3,5,0,0
+239,Helianthus,giganteus,giant sunflower,Asteraceae,"[2, 3, 4, 5, 6, 7, 8, 9]",fd,mh,l-vl,Herb,5,12,0,0
+240,Helianthus,giganteus var. subtuberosum,Indian potato,Asteraceae,"[2, 3, 4, 5, 6, 7, 8, 9]",fd,mh,l-vl,Herb,5,12,0,0
+241,Helianthus,maximilianii,Maximilian sunflower,Asteraceae,[2],fd,mh,m-vl,Herb,2,12,0,0
+242,Helianthus,tuberosus,Jerusalem artichoke,Asteraceae,"[2, 3, 4, 5, 6, 7, 8, 9, 10]",fd,m,vl,Herb,6,12,0,0
+243,Helianthus,x laetiflorus,showy sunflower,Asteraceae,[4],fd,xm,l-vl,Herb,4,8,0,0
+244,Heliopsis,helianthoides,oxeye sunflower,Asteraceae,[4],fd,m,l,Herb,4,5,3,5
+245,Hemerocallis,fulva,tawny daylily,Hemerocallidaceae,"[2, 3, 4, 5, 6, 7, 8, 9]",fd,xm,m-l,Herb,2,6,3,5
+246,Hemerocallis,hybrids,daylily,Hemerocallidaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,s-l,Herb,1,4,2,5
+247,Hemerocallis,lilio-asphodelus,yellow daylily,Hemerocallidaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,m-l,Herb,3,5,3,3
+248,Heracleum,sphondylium,cow parsnip,Apiaceae,"[2, 3, 4, 5, 6, 7, 8, 9]",fd,m,l-vl,Herb,4,10,4,8
+249,Heuchera,americana,alum root,Saxifragaceae,"[4, 5, 6, 7, 8, 9]",d,m,p-s,Herb,3,12,0,0
+250,Hibiscus,syriacus,rose of Sharon,Malvaceae,"[5, 6, 7, 8, 9]",fd,m,l,Shrub,6,12,6,10
+251,Hieracium,venosum,rattlesnake weed,Asteraceae,[3],fd,m,s-m,Herb,1,3,1,2
+252,Hippophae,rhamnoides,sea buckthorn,Eleagnaceae,"[3, 4, 5, 6, 7]",fd,xm,l-vl,Shrub,10,20,10,20
+253,Hippophae,rhamnoides cv.,sea buckthorn ‘Dorana Dwarf,Eleagnaceae,"[3, 4, 5, 6, 7]",fd,xm,m,Shrub,4,4,4,4
+254,Houttuynia,cordata,hot tuna,Saururaceae,"[5, 6, 7, 8]",fd,mh,s,Herb,12,15,0,0
+255,Hovenia,dulcis,Japanese raisin tree,Rhamnaceae,"[6, 7, 8, 9]",f,m,m,Tree,30,45,30,45
+256,Humulus,lupulus,hops,Cannabidaceae,[4],f,m,h,Vine,15,30,15,30
+257,Hydrophyllum,virginianum,Virginia waterleaf,Hydrophyllaceae,"[4, 5, 6, 7]",ds,m,s-m,Herb,1,3,1,2
+258,Hylotelephium,telephium,orpine,Crassulaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,s,Herb,12,18,18,24
+259,Ilex,glabra,inkberry,Aquifoliaceae,[5],fd,m,l,Shrub,10,10,10,10
+260,lllicium,floridanum,Florida star anise,llliciaceae,"[6, 7, 8, 9, 10]",fds,mh,l,Shrub,6,10,4,6
+261,Indigofera,decora,Chinese indigo,Fabaceae,[5],f,m,s,Shrub,18,18,6,8
+262,Ipomoea,leptophylla,bush morning glory,Convolvulaceae,"[4, 5, 6, 7]",f,xm,s-l,Herb,1,4,1,4
+263,Ipomoea,pandurata,wild potato vine,Convolvulaceae,"[6, 7, 8, 9]",fd,m,I,Vine,4,6,4,6
+264,Iris,crislata,dwarf crested iris,Iridaceae,"[4, 5, 6, 7, 8]",fds,m,p-s,Herb,4,0.666666666666667,0,0
+265,Jeftersonia,diphylla,twinleaf,Berberidaceae,"[5, 6, 7, 8]",fds,m,s,Herb,10,12,16,16
+266,Juglans,ailantifolia var. cordiformis,heartnut,Juglandaceae,[5],f,m,l,Tree,60,60,60,60
+267,Juglans,cinerea,butternut,Juglandaceae,[3],f,m,l,Tree,50,75,50,75
+268,Juglans,nigra,black walnut,Juglandaceae,"[4, 5, 6, 7]",f,xm,l,Tree,75,100,75,100
+269,Juglans,regia,Carpathian walnut,Juglandaceae,"[5, 6, 7]",f,m,l,Tree,100,100,75,100
+270,Juglans,regia,English walnut,Juglandaceae,"[7, 8, 9]",f,m,vl,Tree,100,100,75,100
+271,Juglans,x bixbyi,buartnut,Juglandaceae,[4],f,m,l,Tree,60,60,60,60
+272,Lactuca,perennis,perennial lettuce,Asteraceae,[5],fd,m,m,Herb,2,2,1,1
+273,Laportaea,canadensis,wood nettle,Urticaceae,"[3, 4, 5, 6, 7, 8]",ds,m,s-m,Herb,1,3,1,3
+274,Lathyrus,japonicus maritima,beach pea,Fabaceae,"[3, 4, 5, 6, 7]",f,xm,I,Vine,1,2,0,0
+275,Lathyrus,latifolius,everlasting pea,Fabaceae,"[4, 5, 6, 7, 8, 9]",fd,xm,I,Vine,6,6,0,0
+276,Lathyrus,linifolius montanus,bitter vetch,Fabaceae,[6],fd,xm,I,Vine,1,2,1,2
+277,Lathyrus,tuberosus,earth-nut pea,Fabaceae,[6],fd,m,I,Vine,3,4,0,0
+278,Lespedeza,bicolor,bush clover,Fabaceae,"[4, 5, 6, 7]",f,xm,l,Shrub,6,9,6,9
+279,Lespedeza,capitata,round-headed bush clover,Fabaceae,"[4, 5, 6, 7, 8]",fd,xm,m-l,Herb,2,4,2,4
+280,Levisticum,officinale,lovage,Apiaceae,[4],fd,m,l-vl,Herb,4,8,4,8
+281,Ligusticum,canadense,Canada ligusticum,Apiaceae,[6],ds,m,l,Herb,3,6,3,3
+282,Ligusticum,canbyi,osha,Apiaceae,[3],ds,m,l,Herb,4,4,3,3
+283,Ligusticum,scoticum,Scotch lovage,Apiaceae,[4],f,xm,m,Herb,2,2,2,2
+284,Lilium,brownii,Hong Kong lily,Liliaceae,[7],fd,m,l,Herb,4,4,2,2
+285,Lilium,canadense,Canada lily,Liliaceae,"[3, 4, 5, 6, 7]",fd,m,l-vl,Herb,3,8,3,4
+286,Lilium,lancifolium,tiger lily,Liliaceae,[5],fd,m,l,Herb,6,6,2,4
+287,Lilium,longiflorum,white trumpet lily,Liliaceae,[7],fd,m,m,Herb,3,3,1,1
+288,Lilium,philadelphicum,wood lily,Liliaceae,"[4, 5, 6, 7]",fd,m,s-m,Herb,1,3,1,3
+289,Lilium,superbum,Turk's-cap lily,Liliaceae,"[4, 5, 6, 7, 8]",fd,mh,l-vl,Herb,3,8,3,8
+290,Lindera,benzoin,spicebush,Lauraceae,"[5, 6, 7, 8]",fds,mh,l,Shrub,6,12,6,12
+291,Linnaea,borealis,twlnflower,Caprifoliaceae,"[3, 4, 5, 6, 7]",d,m,p,Shrub,1,0.25,0,0
+292,Lobelia,cardinalis,cardinal flower,Lobeliaceae,"[4, 5, 6, 7, 8, 9, 10]",fd,mh,m,Herb,3,3,2,3
+293,Lomatium,cous,biscuit root,Apiaceae,[5],f,xm,m-l,Herb,18,3,18,3
+294,Lomatium,dissectum,fern-leaved biscuit root,Apiaceae,[5],f,xm,m-l,Herb,18,3,18,3
+295,Lomatium,macrocarpum,large-fruited biscuit root,Apiaceae,[5],f,xm,m-l,Herb,18,3,18,3
+296,Lomatium,nudicaule,biscuit root,Apiaceae,[5],f,xm,m-l,Herb,18,3,18,3
+297,Lonicera,caerulea var. edulis,edible honeysuckle,Caprifoliaceae,[3],f,m,m,Shrub,5,5,5,5
+298,Lonicera,kamschatica,honeyberry honeysuckle,Caprifoliaceae,"[3, 4, 5, 6, 7, 8]",fd,m,m,Shrub,5,5,5,5
+299,Lonicera,sempervim,trumpet honeysuckle,Caprifoliaceae,[4],fd,m,l-h,Vine,4,15,4,15
+300,Lonicera,villosa,northern fly honeysuckle,Caprifoliaceae,[3],f,mh,s,Shrub,1,3,1,3
+301,Lotus,corniculatus cv.,prostrate bird’s-foot trefoil Plena’,Fabaceae,[5],fd,xm,p,Herb,0.083333333333333,0.083333333333333,1,2
+302,Lupinus,hybrids,hybrid lupine,Fabaceae,[3],f,m,m,Herb,3,4,2,3
+303,Lupinus,perennis,lupine,Fabaceae,"[3, 4, 5, 6, 7, 8, 9]",f,xm,s-m,Herb,1,2,1,2
+304,Lycopodium,clavatum,running club moss,Lycopodiaceae,"[1, 2, 3, 4, 5, 6, 7, 8]",d,xm,s,Herb,5,1,0,0
+305,Lycopus,uniflorus,northern bugleweed,Lamiaceae,"[3, 4, 5, 6, 7]",fd,mh,s-m,Herb,6,2,6,2
+306,Maackia,amurensis,Amur maackia,Fabaceae,"[3, 4, 5, 6, 7]",fds,xm,s-m,Tree,20,30,20,35
+307,Magnolia,virginiana,sweet bay magnolia,Magnoliaceae,"[5, 6, 7, 8, 9]",fds,mh,s-l,Tree,12,70,12,25
+308,Mahonia,aquifolium,Oregon grape,Berberidaceae,[5],fds,m,m,Shrub,3,6,3,6
+309,Mahonia,repens,creeping mahonia,Berberidaceae,"[5, 6, 7, 8, 9]",fd,xm,s,Shrub,1,2,4,5
+310,Maianthemum,canadense,false lily-of-the-valley,Convallariaceae,"[2, 3, 4, 5, 6, 7, 8]",fds,m,p,Herb,2,0.333333333333333,0,0
+311,Malus,baccata,Siberian crabapple,Rosaceae,[3],f,m,s-m,Tree,20,50,20,50
+312,Malus,ioensis,prairie crabapple,Rosaceae,[2],f,m,s-m,Tree,20,35,20,35
+313,Malus,pumila,"apple, minldwarf",Roseaceae,"[4, 5, 6, 7, 8, 9]",f,m,d,Tree,4,6,4,6
+314,Malus,pumila,"apple, dwarf",Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,d,Tree,5,12,5,12
+315,Malus,pumila,"apple, semidwarf",Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,s,Tree,12,20,12,20
+316,Malus,pumila,"apple, standard",Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,m,Tree,25,35,25,35
+317,Malva,alcea,mallow,Malvaceae,[5],fd,xm,m,Herb,3,3,2,2
+318,Malva,moschata,musk mallow,Malvaceae,[4],fd,m,m,Herb,3,3,2,2
+319,Matteuccia,struthiopteris,ostrich fern,Dryopteridaceae,"[2, 3, 4, 5, 6, 7, 8]",ds,mh,l,Herb,2,6,0,0
+320,Medeola,virginiana,Indian cucumber root,Convallariaceae,"[3, 4, 5, 6, 7, 8]",s,m,s,Herb,8,1,0.5,0.5
+321,Medicago,sativa,alfalfa,Fabaceae,[3],f,m,s-m,Herb,1,3,1,3
+322,Melissa,officinalis,lemon balm,Lamiaceae,[5],fd,m,s-m,Herb,14,2,2,2
+323,Mentha,arvensis,American field mint,Lamiaceae,"[3, 4, 5, 6, 7, 8]",fd,mh,s-m,Herb,6,1.66666666666667,0,0
+324,Mentha,requienii,Corsican mint,Lamiaceae,"[6, 7, 8, 9, 10]",ds,mh,p,Herb,0.083333333333333,0.083333333333333,1,1
+325,Mentha,spicata,spearmint,Lamiaceae,"[4, 5, 6, 7, 8, 9, 10]",fd,mh,s-m,Herb,8,2,0,0
+326,Mentha,suaveolens,apple mint,Lamiaceae,[6],fd,mh,s,Herb,12,1.5,0,0
+327,Mentha,x piperita,peppermint,Lamiaceae,"[3, 4, 5, 6, 7, 8, 9, 10]",fd,mh,m,Herb,1,2,0,0
+328,Mentha,x villosa,Bowles' mint,Lamiaceae,[6],fd,m,m,Herb,2,2,0,0
+329,Mertensia,maritima,oyster plant,Boraginaceae,"[2, 3, 4, 5, 6, 7]",f,m,s,Herb,0,0,3,3
+330,Mespilus,germanica,medlar,Rosaceae,"[5, 6, 7, 8]",f,m,s,Tree,20,20,20,20
+331,Mitchella,repens,partridgeberry,Rubiaceae,"[4, 5, 6, 7, 8]",fds,xm,p,Shrub,1,2,0,0
+332,Mitella,diphylla,miterwort,Saxifragaceae,"[4, 5, 6, 7, 8]",ds,mh,s,Herb,6,1,8,1
+333,Monarda,didyma,bee balm,Lamiaceae,"[4, 5, 6, 7, 8, 9]",fd,m,l,Herb,3,4,2,6
+334,Monarda,fistulosa,wild bergamot,Lamiaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,m-l,Herb,2,4,2,6
+335,Montia,perfoliata,miner's lettuce,Portulacaceae,[4],f,m,s,Herb,6,1,0,0
+336,Montia,sibirica,Siberian miner's lettuce,Portulacaceae,[4],fds,mh,s,Herb,8,1,0,0
+337,Morus,alba,white mulberry,Moraceae,[5],fd,xm,m,Tree,40,40,40,40
+338,Morus,nigra,black mulberry,Moraceae,[6],fd,m,m,Tree,30,30,50,50
+339,Morus,rubra,red mulberry,Moraceae,"[5, 6, 7, 8, 9]",fd,xm,m,Tree,35,50,35,50
+340,Morus,x hybrid cv.,Geraldi Dwarf mulberry,Moraceae,[5],fd,xm,d,Tree,8,8,6,8
+341,Morus,x hybrids,hybrid mulberry,Moraceae,"[5, 6, 7, 8, 9]",f,m,m-l,Tree,30,60,30,60
+342,Myrica,cerifera,southern bayberry,Myricaceae,"[6, 7, 8, 9]",fd,mh,l-xl,Shrub,10,30,10,30
+343,Myrica,gale,sweet gale,Myricaceae,"[1, 2, 3, 4, 5, 6]",f,mh,s-m,Shrub,2,6,2,6
+344,Myrica,pensylvanica,northern bayberry,Myricaceae,"[2, 3, 4, 5, 6, 7]",f,xmh,l,Shrub,6,12,6,12
+345,Myrrhis,odorata,sweet cicely,Apiaceae,[4],fd,m,m,Herb,3,3,3,3
+346,Nasturtium,officinale,watercress,Brassicaceae,"[2, 3, 4, 5, 6, 7, 8, 9, 10]",fd,mh,s,Herb,6,1,0,0
+347,Onoclea,sensibilis,sensitive fern,Dryopteridaceae,[3],fd,mh,s-m,Herb,1,2,0,0
+348,Opuntia,compressa,prickly pear cactus,Cactaceae,"[5, 6, 7, 8, 9]",f,x,p-s,Shrub,4,0.666666666666667,3,3
+349,Origanum,vulgare,oregano,Lamiaceae,"[4, 5, 6, 7, 8, 9]",f,xm,s-m,Herb,1,2,1,4
+350,Osmorhiza,claytonii,sweet cicely,Apiaceae,[4],ds,m,s-m,Herb,1,3,1,2
+351,Osmorhiza,longistylis,anise root,Apiaceae,[4],ds,m,s-m,Herb,1,3,1,2
+352,Oxalis,grandis,great wood sorrel,Oxalidaceae,[5],ds,m,s-m,Herb,8,36,0,0
+353,Oxalis,montana,wood sorrel,Oxalidaceae,[3],ds,m,p,Herb,2,0.5,0,0
+354,Oxalis,oregana,red wood sorrel,Oxalidaceae,"[7, 8, 9, 10]",ds,m,s,Herb,10,10,2,3
+355,Oxalis,violacea,violet wood sorrel,Oxalidaceae,[3],ds,m,p-s,Herb,4,0.666666666666667,1,2
+356,Oxyria,digyna,mountain sorrel,Polygonaceae,"[2, 3, 4, 5, 6, 7, 8]",fd,m,s,Herb,2,1,1,1
+357,Pachysandra,procumbens,Allegheny spurge,Buxaceae,"[5, 6, 7, 8]",ds,m,s,Herb,6,1,6,10
+358,Panax,quinquefolius,American ginseng,Araliaceae,"[4, 5, 6, 7]",ds,m,s,Herb,6,1.33333333333333,1,1
+359,Panax,trifolius,dwarf ginseng,Araliaceae,[4],ds,m,p,Herb,0.5,0.5,0.5,0.5
+360,Parthenium,integrifolium,wild quinine,Asteraceae,[4],fd,xm,s-l,Herb,1,4,1,3
+361,Passiflora,incarnata,maypop,Passifloraceae,"[6, 7, 8, 9, 10]",fd,xm,h,Vine,10,30,0,0
+362,Perideridia,gairdneri,yampa,Apiaceae,[5],fd,m,m-l,Herb,18,3,12,1.5
+363,Persea,borbonia,red bay,Lauraceae,"[6, 7, 8, 9]",fd,h,m-l,Tree,40,70,40,40
+364,Petasites,japonicus,fuki,Asteraceae,"[4, 5, 6, 7, 8, 9]",d,m,m-l,Herb,2,4,0,0
+365,Petasites,japonicus giganteus,giant fuki,Asteraceae,[4],ds,mh,l,Herb,5,6,0,0
+366,Phaseolus,polystachios,wild bean,Fabaceae,"[6, 7, 8, 9, 10]",fd,xm,I,Vine,1,3,1,3
+367,Phlox,divaricate,wild blue pblox,Polemoniaceae,"[4, 5, 6, 7, 8, 9]",fds,m,s,Herb,12,1.33333333333333,18,36
+368,Phlox,nivalis,trailing pblox,Polemoniaceae,"[6, 7, 8, 9]",fd,xm,s,Herb,1,1,1.5,1.5
+369,Phlox,stolonitera,creeping pblox,Polemoniaceae,"[4, 5, 6, 7, 8, 9]",ds,m,p-s,Herb,3,1,0,0
+370,Phlox,subulata,moss pink,Polemoniaceae,"[4, 5, 6, 7, 8, 9]",f,xm,p,Herb,4,6,2,2
+371,Phyllostachys,dulcis,sweetshoot bamboo,Poaceae,[7],fd,m,vl-xl,Bamboo,20,40,0,0
+372,Phyllostachys,nuda,stone bamboo,Poaceae,[7],fd,m,vl-xl,Bamboo,20,35,0,0
+373,Phyllostachys,viridi-glaucescens,blue-green glaucous bamboo,Poaceae,[7],fd,m,vl-xl,Bamboo,20,35,0,0
+374,Physalis,heterophylla,ground cherry,Solanaceae,[3],f,m,s-m,Herb,1,3,1,3
+375,Phytolacca,americana,pokeweed,Phytolaccaceae,"[3, 4, 5, 6, 7, 8, 9]",f,m,l-vl,Herb,5,9,5,9
+376,Pimpinella,saxifraga,burnet saxifrage,Apiaceae,[5],fd,xm,m,Herb,3,3,2,2
+377,Pinus,albicaulis,whitebark pine,Pinaceae,[3],f,m,m,Tree,32,32,20,20
+378,Pinus,armandii,Chinese wbite pine,Pinaceae,[5],f,m,l,Tree,65,65,30,40
+379,Pinus,cembra,Swiss stone pine,Pinaceae,"[4, 5, 6, 7]",f,m,m-l,Tree,30,65,15,25
+380,Pinus,cembra var. sibirica,Siberian stone pine,Pinaceae,[3],f,xmh,vl,Tree,110,110,50,50
+381,Pinus,edulis,pinyon pine,Pinaceae,[5],f,x,m,Tree,50,50,35,35
+382,Pinus,flexilis,limber pine,Pinaceae,"[3, 4, 5, 6, 7]",fd,xm,m-l,Tree,30,75,15,50
+383,Pinus,jeffreyi,Jeffrey pine,Pinaceae,[6],f,m,vl,Tree,100,200,50,100
+384,Pinus,koraiensis,Korean pine,Pinaceae,"[4, 5, 6, 7]",f,xm,m-l,Tree,30,100,15,50
+385,Pinus,pumila,Japanese stone pine,Pinaceae,[4],f,m,d,Tree,1,7,1,7
+386,Platycodon,grandiflora,balloon flower,Campanulaceae,[5],f,m,s-m,Herb,1,3,1,3
+387,Podophyllum,peltatum,mayapple,"Berberidaceae ,","[3, 4, 5, 6, 7, 8]",ds,m,s,Herb,12,1.5,0,0
+388,Polygonatum,biflorum,Solomon's seal,Convallariaceae,"[3, 4, 5, 6, 7]",fds,xm,s-m,Herb,1,3,2,2
+389,Polygonatum,biflorum var. commutatum,giant Solomon's seal,Convallariaceae,"[3, 4, 5, 6, 7]",fds,xm,m-l,Herb,3,5,4,4
+390,Polygonum,bistorta,bistort,Polygonaceae,"[4, 5, 6, 7, 8]",fds,m,m,Herb,18,2,18,2
+391,Polygonum,bistortoides,western bistort,Polygonaceae,[2],f,mh,s-m,Herb,8,2.33333333333333,8,2.33333333333333
+392,Polygonum,viviparum,alpine bistort,Polygonaceae,"[1, 2, 3, 4, 5, 6, 7, 8]",fd,m,s,Herb,1,1,1,1
+393,Polypodium,glycyrrhiza,licorice fern,Polypodiaceae,[6],ds,m,s,Herb,6,0.666666666666667,2,5
+394,Polypodium,virginianum,rock polypody,Polypodiaceae,[3],ds,m,s,Herb,0.833333333333333,0.833333333333333,5,5
+395,Polystichum,acrostichoides,Christmas fern,Dryopteridaceae,"[4, 5, 6, 7]",ds,m,m-l,Herb,18,3,3,4
+396,Polytaenia,nuttallii,prairie parsley,Apiaceae,[4],fd,xm,m-l,Herb,18,3,12,1.5
+397,Polytrichum,commune,common haircap moss,Polytricbaceae,"[2, 3, 4, 5, 6, 7, 8, 9, 10]",ds,m,p,Herb,1,0.166666666666667,0,0
+398,Potentilla,anserina,silverweed,Rosaceae,"[3, 4, 5, 6, 7]",f,xm,p-s,Herb,3,1.16666666666667,0,0
+399,Prosopis,glandulosa,honeypod mesquite,Fabaceae,[7],f,xm,vl,Shrub,12,25,30,30
+400,Prunus,alleghaniensis,Allegheny plum,Rosaceae,[5],f,m,s,Tree,12,20,12,20
+401,Prunus,americana,American plum,Rosaceae,"[3, 4, 5, 6, 7, 8]",f,xm,m,Tree,20,35,20,35
+402,Prunus,americana var. nigra,Canada plum,Rosaceae,[3],f,m,d-s,Tree,6,20,6,20
+403,Prunus,angustifolia,Chickasaw plum,Rosaceae,[5],f,m,l,Shrub,8,10,8,10
+404,Prunus,angustifolia var. watsonii,sandhill plum,Rosaceae,[5],f,m,m,Shrub,3,6,5,70
+405,Prunus,armeniaca,"""alpricot""",Rosaceae,"[5, 6, 7, 8, 9]",f,m,s-m,Tree,20,30,20,30
+406,Prunus,armeniaca,apricot dwarf,Rosaceae,"[5, 6, 7, 8, 9]",f,m,d,Tree,4,8,4,8
+407,Prunus,armeniaca,apricot semidwarf,Rosaceae,"[5, 6, 7, 8, 9]",f,m,s,Tree,12,15,12,15
+408,Prunus,armeniaca,apricot standard,Rosaceae,"[5, 6, 7, 8, 9]",f,m,s-m,Tree,20,30,20,30
+409,Prunus,avium,"sweet cherry, dwarf",Rosaceae,"[5, 6, 7, 8, 9]",f,m,d,Tree,6,8,8,15
+410,Prunus,avium,"sweet cherry, semidwarf",Rosaceae,"[5, 6, 7, 8, 9]",f,m,d-s,Tree,10,15,18,20
+411,Prunus,avium,"sweet cherry, standard",Rosaceae,"[5, 6, 7, 8, 9]",f,m,m,Tree,25,35,35,40
+412,Prunus,cerasifera,myrobalan plum,Rosaceae,[5],f,m,s-m,Tree,15,30,15,30
+413,Prunus,cerasus,sour cherry,Rosaceae,"[4, 5, 6, 7, 8]",f,m,s,Tree,20,20,25,25
+414,Prunus,cerasus var. frutescens,dwarf sour cherry,Rosaceae,"[4, 5, 6, 7, 8]",f,m,d,Tree,10,10,12,12
+415,Prunus,domestica,"European plum, dwarf",Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,d,Tree,10,12,10,15
+416,Prunus,domestica,"European plum, standard",Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,s,Tree,15,20,15,20
+417,Prunus,domestics vat. institia,damson plum,Rosaceae,[4],f,m,s,Tree,15,25,15,25
+418,Prunus,dulcis,"almond, dwarf",Rosaceae,"[6, 7, 8, 9]",f,m,d,Tree,8,8,8,8
+419,Prunus,duicis,"almond, semidwarf",Rosaceae,"[6, 7, 8, 9]",f,m,d-s,Tree,8,20,8,20
+420,Prunus,dulcis,"almond, standard",Rosaceae,"[6, 7, 8, 9]",f,m,s-m,Tree,20,30,20,30
+421,Prunus,fruticosa,Mongolian bush cherry,Rosaceae,[2],f,m,s,Shrub,3,3,3,3
+422,Prunus,hortulana,hog plum,Rosaceae,[5],f,xm,s-m,Tree,12,30,12,30
+423,Prunus,japonica var. nakai,Japanese bush cherry,Rosaceae,[4],f,m,l,Shrub,8,8,8,8
+424,Prunus,mandschurica,Manchurian apricot,Rosaceae,"[3, 4, 5, 6, 7, 8, 9]",f,m,vl,Shrub,12,15,12,15
+425,Prunus,maritima,beach plum,Rosaceae,[3],f,m,l,Shrub,8,8,8,8
+426,Prunus,munsoniana,wild goose plum,Rosaceae,[5],f,m,l,Shrub,10,10,10,10
+427,Prunus,persica,"peach, dwarf",Rosaceae,"[5, 6, 7, 8, 9]",f,m,d,Tree,2,5,2,5
+428,Prunus,persica,"peach, semidwarf",Rosaceae,"[5, 6, 7, 8, 9]",f,m,d-s,Tree,10,14,10,14
+429,Prunus,persica,"peach, standard",Rosaceae,"[5, 6, 7, 8, 9]",f,m,s,Tree,15,20,20,25
+430,Prunus,persica nucipersica,"nectarine, dwarf",Rosaceae,"[5, 6, 7, 8, 9]",f,m,d,Tree,2,5,2,5
+431,Prunus,persica nucipersica,"nectarine, semidwarf",Rosaceae,"[5, 6, 7, 8, 9]",f,m,d-s,Tree,10,14,10,14
+432,Prunus,persica nucipersica,"nectarine, standard",Rosaceae,"[5, 6, 7, 8, 9]",f,m,s,Tree,15,20,20,25
+433,Prunus,pumila,eastern dwarf cherry,Rosaceae,[3],f,xm,m,Shrub,3,6,3,6
+434,Prunus,pumila var. besseyi,sand cherry,Rosaceae,[3],f,xm,m,Shrub,3,6,3,3
+435,Prunus,salicina,dwarf Japanese plum,Rosaceae,"[6, 7, 8, 9, 10]",f,m,d,Tree,8,12,15,0
+436,Prunus,salicina,Japanese plum,Rosaceae,"[6, 7, 8, 9, 10]",f,m,s,Tree,15,18,15,20
+437,Prunus,fomentosa,Nanking cherry,Rosaceae,"[3, 4, 5, 6, 7]",f,xm,l,Shrub,6,10,6,8
+438,Prunus,virginiana,chokecherry,Rosaceae,[2],fd,xm,m,Tree,35,50,20,35
+439,Prunus,x gondouinii,duke cherry,Rosaceae,"[4, 5, 6, 7, 8]",f,m,s,Tree,20,20,25,25
+440,Prunus,x hybrid cv.,Hall's Hardy Almond',Rosaceae,"[5, 6, 7, 8, 9]",f,m,d-s,Tree,10,15,10,15
+441,Prunus,x hybrids,hybrid plum,Rosaceae,[],f,m,d-s,Tree,10,25,10,25
+442,Prunus,japonica x jacguemontii cvs.,"dwarf bush cherry 'Jan', 'Joy', 'Joel'",Rosaceae,"[3, 4, 5, 6, 7, 8]",f,m,m,Shrub,3,4,3,4
+443,Pseudostellaria,jamesiana,tuberous chickweed,Caryophyllaceae,[4],ds,m,s-m,Herb,8,1.66666666666667,8,20
+444,Psoralea,esculenta,prairie turnip,Fabaceae,"[3, 4, 5, 6, 7]",f,xm,s-m,Herb,6,1.66666666666667,6,20
+445,Pycnanthemum,flexuosum,hyssop-leaved mountain mint,Lamiaceae,"[5, 6, 7, 8, 9]",fd,xm,s-m,Herb,1,3,0,0
+446,Pycnanthemum,virginianum,Virginia mountain mint,Lamiaceae,"[4, 5, 6, 7, 8, 9]",fd,xm,s-m,Herb,1,3,0,0
+447,Pyrus,bretschneideris,Asian pear,Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,m,Tree,25,30,25,25
+448,Pyrus,communis,"European pear, minidwarf",Rosacea,"[4, 5, 6, 7, 8, 9]",f,m,d,Tree,4,6,4,6
+449,Pyrus,communis,"European pear, dwarf",Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,d-s,Tree,8,15,10,15
+450,Pyrus,communis,"European pear, semidwarf",Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,s,Tree,15,20,15,15
+451,Pyrus,communis,"European pear, standard",Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,m,Tree,25,40,25,25
+452,Pyrus,communis,perry pear,Rosaceae,"[4, 5, 6, 7, 8, 9]",f,m,l,Tree,70,70,15,55
+453,Quercus,acutissima,sawtooth oak,Fagaceae,[5],f,m,m,Tree,50,50,50,50
+454,Quercus,alba,white oak,Fagaceae,"[4, 5, 6, 7, 8]",fd,xm,l,Tree,75,100,75,100
+455,Quercus,bicolor,swamp white oak,Fagaceae,[4],fd,mh,l,Tree,75,100,50,75
+456,Quercus,fruticosa,fruticosa oak,Fagaceae,[4],f,m,l,Tree,60,60,60,60
+457,Quercus,gambelii,Gambei oak,Fagaceae,[6],f,xm,vl,Shrub,15,25,15,25
+458,Quercus,ilex var. rotundifolia,holly oak,Fagaceae,[7],f,xm,l,Tree,75,75,75,75
+459,Quercus,macrocarpa,bur oak,Fagaceae,"[2, 3, 4, 5, 6, 7, 8]",f,xmh,l,Tree,75,100,75,100
+460,Quercus,meuhlenbergii,chinkapin oak,Fagaceae,[4],f,xm,m,Tree,35,50,35,50
+461,Quercus,michauxii,swamp chestnut oak,Fagaceae,[6],f,mh,l,Tree,75,100,75,100
+462,Quercus,prinoides,dwarf chinkapin oak,Fagaceae,[5],f,xm,l,Shrub,12,12,12,20
+463,Quercus,prinus,chestnut oak,Fagaceae,[5],fd,xm,l,Tree,50,75,75,100
+464,Quercus,x hybrid,Compton's oak,Fagaceae,[5],f,xm,l,Tree,60,60,60,60
+465,Quercus,x schuettei,Schuette's oak,Fagaceae .,[4],f,mh,l,Tree,70,70,70,70
+466,Rheum,australe,Himalayan rhubarb,Polygonaceae,"[5, 6, 7, 8]",fd,m,vl,Herb,6,10,6,6
+467,Rheum,palmatum,turkey rhubarb,Polygonaceae,[4],fd,m,vl,Herb,6,6,6,6
+468,Rheum,x cultorum,rhubarb,Polygonaceae,"[1, 2, 3, 4, 5, 6, 7, 8, 9]",fd,m,l,Herb,3,5,3,5
+469,Rhexia,virginica,meadow beauty,Melastomataceae,[4],fd,mh,s-m,Herb,1,2,1,1
+470,Rhodiola,rosea,roseroot,Crassulaceae,[2],fd,xm,p-s,Herb,5,0.833333333333333,5,0.833333333333333
+471,Rhododendron,pericylmenoides,pinxter flower azalea,Ericaceae,"[4, 5, 6, 7, 8]",fds,mh,l,Shrub,6,12,6,12
+472,Rhus,aromalica,fragrant sumac,Anacardiaceae,"[4, 5, 6, 7, 8]",f,m,s-l,Shrub,2,8,6,10
+473,Rhus,aromatica cv.,fragrant sumac 'Gro-Low',Anacardiaceae,"[4, 5, 6, 7, 8]",f,xm,s,Shrub,2,2,8,8
+474,Rhus,copallina,winged sumac,Anacardiaceae,[5],f,xm,xl,Shrub,20,35,20,35
+475,Rhus,glabra,smooth sumac,Anacardiaceae,[2],f,xm,l-vl,Shrub,10,20,20,35
+476,Rhus,hirta,staghorn sumac,Anacardiaceae,[3],f,xm,xl,Shrub,35,50,35,50
+477,Ribes,americanum,American blackcurrant,Grossulariaceae,[3],fd,mh,m,Shrub,3,6,3,6
+478,Ribes,aureum,golden currant,Grossulariaceae,[3],fd,m,m-l,Shrub,3,8,3,6
+479,Ribes,hirtellum,smooth gooseberry,Grossulariaceae,[3],fd,m,m,Shrub,3,5,3,5
+480,Ribes,missouriense,Missouri gooseberry,Grossulariaceae,[4],fd,xm,m,Shrub,3,6,3,6
+481,Ribes,nigrum,black currant,Grossulariaceae,[4],fd,m,m,Shrub,3,5,3,5
+482,Ribes,odoratum,clove currant,Grossulariaceae,[3],fd,xm,l,Shrub,6,12,6,12
+483,Ribes,silvestre,red currant,Grossulariaceae,[3],fd,m,m,Shrub,3,5,3,5
+484,Ribes,triste,American red currant,Grossulariaceae,[3],fd,mh,m,Shrub,3,5,3,5
+485,Ribes,uva-crispa,gooseberry,Grossulariaceae,[3],fd,m,m,Shrub,3,5,3,5
+486,Ribes,x culverwellii,jostaberry,Grossulariaceae,[3],fd,m,m-l,Shrub,4,8,4,8
+487,Ribes,x hybrids,gooseberry hybrids,Grossulariaceae,[3],fd,m,m,Shrub,3,5,3,5
+488,Robinia,hispida,bristly locust,Fabaceae,"[4, 5, 6, 7, 8]",f,xm,l,Shrub,6,12,3,6
+489,Robinia,pseudoacacia,black locust,Fabaceae,[3],f,xm,l,Tree,50,75,35,50
+490,Robinia,viscosa,clammy locust,Fabaceae,"[5, 6, 7, 8]",f,xm,l-vl,Shrub,6,20,6,20
+491,Rosa,Carolina,pasture rose,Rosaceae,"[4, 5, 6, 7, 8]",f,xmh,s,Shrub,3,3,6,12
+492,Rosa,palustris,marsh rose,Rosaceae,"[3, 4, 5, 6, 7, 8, 9]",f,h,l,Shrub,5,7,5,7
+493,Rosa,rugosa,rugosa rose,Rosaceae,"[2, 3, 4, 5, 6, 7]",f,xm,m,Shrub,4,6,4,8
+494,Rosa,setigera,prairie rose,Rosaceae,"[4, 5, 6, 7]",f,xm,l,Shrub,6,12,12,30
+495,Rosa,villosa,apple rose,Rosaceae,"[3, 4, 5, 6, 7]",f,m,m,Shrub,4,4,4,4
+496,Rosmarinus,officinalis,rosemary,lamiaceae,"[7, 8, 9]",f,xm,s-m,Shrub,3,4,3,4
+497,Rosmarinus,officinalis cv.,rosemary 'Arp',lamiaceae,"[5, 6, 7, 8, 9]",f,xm,s-m,Shrub,3,4,3,4
+498,Rosmarinus,officinalis cv.,rosemary 'Huntington Carpet',Lamiaceae,"[7, 8, 9]",f,xm,s,Shrub,1,1,4,4
+499,Rubus,allegheniensis,Allegheny blackberry,Rosaceae,[3],f,xm,m,Shrub,3,6,6,12
+500,Rubus,chamaemorus,cloudberry,Rosaceae,"[2, 3, 4]",f,mh,p-s,Herb,3,0.666666666666667,3,0.666666666666667
+501,Rubus,flagellaris,prickly dewberry,Rosaceae,[4],fd,m,s,Shrub,1,1,0,0
+502,Rubus,fruticosus,blackberry,Rosaceae,[6],f,m,m-l,Shrub,4,8,4,8
+503,Rubus,idaeus,raspberry,Rosaceae,"[3, 4, 5, 6, 7, 8, 9]",f,m,m,Shrub,4,6,4,6
+504,Rubus,idaeus var. strigosus,American red raspberry,Rosaceae,"[2, 3, 4, 5, 6]",f,xmh,m,Shrub,3,6,6,12
+505,Rubus,illecebrosus,strawberry-raspberry,Rosaceae,[6],f,m,s,Shrub,1,2,0,0
+506,Rubus,occidentalis,black raspberry,Rosaceae,[4],f,xm,m,Shrub,3,6,6,12
+507,Rubus,odoratus,purple-flowering raspberry,Rosaceae,[4],fd,m,m,Shrub,6,6,6,6
+508,Rubus,parviflorus,thimbleberry,Rosaceae,"[4, 5, 6, 7, 8, 9]",fds,m,m,Shrub,4,6,4,6
+509,Rubus,pentalobus cv.,Emerald Carpet' raspberry,Rosaceae,[7],fd,m,p,Shrub,2,0.333333333333333,3,3
+510,Rubus,spectabilis,salmonberry,Rosaceae,[6],f,m,m,Shrub,4,5,4,5
+511,Rubus,tricolor,creeping bramble,Rosaceae,[7],fds,m,s,Shrub,1.5,1.5,7,7
+512,Rubus,x hybrids,"boysenberry, et al.",Rosaceae,[6],f,m,m,Shrub,4,6,4,6
+513,Rubus,spp.,dewberry,Rosaceae,[7],f,m,m-l,Shrub,4,8,4,8
+514,Rubus,x stellarcticus,all-fieldberry,Rosaceae,"[2, 3, 4, 5, 6, 7, 8]",f,m,s,Herb,1,1,2,2
+515,Rumex,acetosa,French sorrel,Polygonaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,m,s-m,Herb,1,3,10,1
+516,Rumex,acetosella,sheep sorrel,Polygonaceae,[3],f,xm,p,Herb,6,6,0,0
+517,Rumex,scutatus,buckler-leaved sorrel,Polygonaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,s,Herb,1,1,1,2
+518,Salvia,officinalis,broadleaf sage,Lamiaceae,"[5, 6, 7, 8, 9]",f,xm,s,Shrub,18,2.5,30,3
+519,Sambucus,canadensis,elderberry,Sambucaceae,"[3, 4, 5, 6, 7, 8, 9, 10]",fd,xmh,1,Shrub,6,12,6,12
+520,Sanguisorba,canadensis,American great burnet,Rosaceae,"[3, 4, 5, 6, 7, 8]",fd,mh,1,Herb,4,5,4,5
+521,Sanguisorba,minor,salad burnet,Rosaceae,[5],fd,m,s-m,Herb,1,2,1,1
+522,Sanguisorba,officinalis,great burnet,Rosaceae,[4],fd,m,m,Herb,3,3,2,2
+523,Sasa,kurilensis,chishima-zasa bamboo,Poaceae,[7],fd,m,m-l,Bamb,5,10,0,0
+524,Sassafras,albidum,sassafras,Lauraceae,[5],fd,xm,m,Tree,35,50,35,50
+525,Satureja,douglasii,yerba buena,Lamiaceae,"[5, 6, 7, 8, 9]",fd,m,p,Herb,0.166666666666667,0.166666666666667,3,3
+526,Saxifraga,stolonifera,strawberry saxifrage,Saxifragaceae,"[7, 8, 9, 10]",ds,m,p-s,Herb,6,0.666666666666667,0,0
+527,Schisandra,chinensis,magnolia vine,Schisandraceae,[4],fd,m,h,Vine,20,20,20,20
+528,Scorzonera,hispanica,scorzonera,Asteraceae,"[4, 5, 6, 7, 8, 9]",fd,m,s-m,Herb,1,3,1,2
+529,Secale,cereale cv.,rye Varimontra',Poaceae,[],f,m,s-l,Herb,1,4,1,2
+530,Sedum,album,white stonecrop,Crassulaceae,[6],fd,xm,p,Herb,2,0.416666666666667,0,0
+531,Sedum,reflexum,stonecrop,Crassulaceae,[3],fd,xm,s,Herb,8,0.833333333333333,0,0
+532,Sedum,ternatum,wild stonecrop,Crassulaceae,"[3, 4, 5, 6, 7, 8]",fds,m,p,Herb,2,0.5,0,0
+533,Semiarundinaria,fastuosa,temple bamboo,Poaceae,[6],fd,m,l-xl,Bamboo,10,35,0,0
+534,Senecio,aureus,golden groundsel,Asteraceae,[4],fd,mh,s-m,Herb,1,3,1.5,1.5
+535,Senecio,obovatus,round-leaved ragwort,Asteraceae,[4],ds,m,s-m,Herb,6,2,1,2
+536,Shepherdia,canadensis,Canadian buffaloberry,Eleagnaceae,[2],f,xm,1,Shrub,6,12,6,12
+537,Silphium,laciniatum,compass plant,Asteraceae,[4],fd,xm,l-vl,Herb,4,10,0,0
+538,Silphium,perfoliatum,cup plant,Asteraceae,[4],fd,m,l-vl,Herb,4,8,0,0
+539,Silphium,triloliatum,whorled rosinweed,Asteraceae,[4],fd,m,l-vl,Herb,3,7,0,0
+540,Sium,sisarum,skirret,Apiaceae,"[5, 6, 7, 8, 9]",fd,mh,m,Herb,3,3,1,2
+541,Smallanthus,uvedalia,leafcup,Asteraceae,[4],d,m,s-I,Herb,1.5,5,1,3
+542,Smilacina,racemosa,false Solomon's seal,Convallariaceae,"[2, 3, 4, 5, 6, 7, 8]",fds,xm,s-m,Herb,1,3,0,0
+543,Smilax,herbacea,carrion flower,Smilacaceae,[4],fd,m,I,Vine,6,10,4,6
+544,Solidago,flexicaulis,zig-zag goldenrod,Asteraceae,[4],fds,mh,s-m,Herb,1,3,1,3
+545,Solidago,missouriensis,Missouri goldenrod,Asteraceae,[4],fd,xm,s-m,Herb,1,3,1,3
+546,Solidago,odora,sweet goldenrod,Asteraceae,"[3, 4, 5, 6, 7, 8, 9]",fd,xm,m-l,Herb,2,4,2,4
+547,Sophora,japonica,Japanese pagoda tree,Fabaceae,"[4, 5, 6, 7, 8]",f,xm,l,Tree,50,75,50,75
+548,Sorbus,americana,American mountain ash,Rosaceae,[2],f,m,s-m,Tree,10,30,10,30
+549,Sorbus,aucuparia,rowan,Rosaceae,"[3, 4, 5, 6, 7]",f,m,s-m,Tree,20,40,15,35
+550,Sorbus,decora,showy mountain ash,Rosaceae,"[2, 3, 4, 5]",f,mh,s-m,Tree,20,35,20,35
+551,Sorbus,domestica,service tree,Rosaceae,[4],f,m,m,Tree,30,35,30,35
+552,Sorghum,x hybrid,perennial sorghum,Poaceae,"[7, 8, 9, 10]",f,m,l,Herb,6,6,0,0
+553,Stachys,affinis,Chinese artichoke,Lamiaceae,"[5, 6, 7, 8, 9]",f,m,s-m,Herb,1.5,1.5,0,0
+554,Stachys,hyssopifolia,hyssop hedge nettle,Lamiaceae,"[6, 7, 8, 9]",f,mh,s-m,Herb,6,2.5,1,1
+555,Stachys,palustris,woundwort,Lamiaceae,[3],fd,mh,s-l,Herb,1,3,1,1
+556,Stellaria,media,annual chickweed,Caryophyllaceae,[4],fd,m,s,Herb,6,12,1,2
+557,Stellaria,pubera,giant chickweed,Caryophyllaceae,"[5, 6, 7, 8]",ds,m,s,Herb,6,1,1,1
+558,Streptopus,amplexifolius,twisted stalk,Convallariaceae,"[3, 4, 5, 6, 7, 8]",ds,m,s-m,Herb,1,2,1,2
+559,Streptopus,roseus,rosybells,Convallariaceae,"[3, 4, 5, 6, 7, 8]",ds,m,s-m,Herb,1,3,1,3
+560,Strophostyles,umbellata,wild bean,Fabaceae,"[6, 7, 8, 9]",fd,xm,I,Vine,1,3,1,3
+561,Stylosanthes,biflora,two-flowered pencil flower,Fabaceae,[5],fd,xm,s-m,Herb,6,1.66666666666667,6,10
+562,Symphytum,grandiflorum,large-flowered comfrey,Boraginaceae,"[4, 5, 6, 7, 8]",fd,xm,s,Herb,8,1,18,18
+563,Symphytum,officinale,comfrey,Boraginaceae,[4],fd,m,l,Herb,3,5,3,5
+564,Symphytum,x uplandicum,Russian comfrey,Boraginaceae,"[6, 7, 8]",fd,m,s-l,Herb,1,4,3,3
+565,Taenidia,integerrima,yellow pimpernel,Apiaceae,[4],fd,m,s-m,Herb,1,3,1,2
+566,Taraxacum,officinale,dandelion,Asteraceae,[3],fd,m,s-m,Herb,6,2,6,2
+567,Thaspium,barbinode,meadow parsnip,Apiaceae,[4],fd,m,s-l,Herb,1,4,8,2
+568,Thaspium,trifoliatum,woodland thaspium,Apiaceae,[4],d,m,s-l,Herb,1,4,1,2
+569,Thelypteris,noveboracensis,New York fern,Thelypteridaceae,[2],ds,mh,s-m,Herb,12,2,0,0
+570,Thermopsis,villosa,Carolina bush pea,Fabaceae,"[5, 6, 7, 8]",fd,xm,l,Herb,4,5,2,3
+571,Thymus,vulgaris,thyme,Lamiaceae,"[4, 5, 6, 7, 8, 9, 10]",f,xm,p-s,Shrub,6,18,3,4
+572,Tiarella,cordifolia,foamflower,Saxifragaceae,"[3, 4, 5, 6, 7, 8]",ds,m,p-s,Herb,6,1,0,0
+573,Tilia,americana,American basswood,Tiliaceae,[3],fds,m,l,Tree,75,100,50,75
+574,Ila,x vulgaris,linden,Tiliaceae,[4],fd,xmh,l,Tree,75,100,40,40
+575,Toona,sinensis,fragrant spring tree,Meliaceae,[5],f,m,m-l,Tree,30,70,30,45
+576,Tradescantia,virginiana,Virginia spiderwort,Commelinaceae,"[4, 5, 6, 7, 8, 9]",fd,mh,s-m,Herb,1,2,0,0
+577,Trifolium,pratense,red clover,Fabaceae,[3],f,m,s-m,Herb,6,1.33333333333333,6,16
+578,Trifolium,repens,white clover,Fabaceae,[4],fd,m,p-s,Herb,4,10,6,3
+579,Trillium,grandiflorum,white trillium,Trilliaceae,"[3, 4, 5, 6, 7]",ds,m,s,Herb,12,1.5,0,0
+580,Tripsacum,dactyloides,eastern gamma grass,Poaceae,"[3, 4, 5, 6, 7, 8, 9]",fd,m,vl,Herb,6,6,5,6
+581,Triteleia,grandiflora,blue dicks,Alliaceae,[6],fd,xm,s-m,Herb,1,2,1,1
+582,Triticum,x aestivum,perennial wheat,Poaceae,[],f,m,m-l,Herb,2,4,2,3
+583,Ulmus,rubra,slippery elm,Ulmaceae,"[3, 4, 5, 6, 7, 8, 9]",f,m,m-l,Tree,40,60,40,60
+584,Urtica,dioica,stinging nettle,Urticaceae,"[4, 5, 6, 7, 8]",fd,m,s-l,Herb,1,5,0,0
+585,Urtica,dioica var. gracilis,native nettle,Urticaceae,[3],f,m,l,Herb,3,4,1,3
+586,Uvularia,sessilifolia,bellwort,Convallariaceae,"[3, 4, 5, 6, 7, 8]",ds,m,s,Herb,8,12,8,1
+587,Vaccinium,angustifolium,Mush blueberry,Ericaceae,"[2, 3, 4, 5, 6]",f,xm,s,Shrub,2,2,3,3
+588,Vaccinium,ashei,rabbiteye blueberry,Ericaceae,[7],f,m,m-vl,Shrub,4,18,4,18
+589,Vaccinium,corymbosum,highbush blueberry,Ericaceae,"[4, 5, 6, 7, 8]",f,xmh,l,Shrub,6,12,6,12
+590,Vaccinium,crassifolium,creeping blueberry,Ericaceae,"[7, 8, 9]",fd,m,p,Shrub,2,0.5,5,5
+591,Vaccinium,macrocarpon,cranberry,Ericaceae,[3],f,h,p,Shrub,0.5,0.5,0,0
+592,Vaccinium,vitis-idaea,lingonberry,Ericaceae,"[4, 5, 6, 7]",f,m,s,Shrub,6,12,2,2
+593,Vaccinium,x hybrids,half-high blueberry,Ericaceae,"[3, 4, 5, 6, 7]",f,m,s-m,Shrub,2,4,2,4
+594,Verbena,canadensis,rose verbena,Verbenaceae,"[5, 6, 7, 8, 9]",fd,xm,p-s,Herb,4,1,1.5,1.5
+595,Vernonia,noveboracensis,New York ironweed,Asteraceae,[4],f,m,l-vl,Herb,5,8,3,4
+596,Veronica,officinalis,speedwell,Scrophulariaceae,[4],fd,m,s,Herb,1,1,0,0
+597,Viburnum,cassinoides,withered viburnum,Caprifoliaceae,"[2, 3, 4, 5, 6, 7, 8]",fd,xmh,l,Shrub,6,12,6,12
+598,Viburnum,lentago,nannyberry,Caprifoliaceae,[2],fd,xm,vl-xl,Shrub,20,35,10,20
+599,Viburnum,trilobum,highbush cranberry,Caprifoliaceae,[2],f,mh,l,Shrub,6,12,6,12
+600,Vicia,americana,American vetch,Fabaceae,"[3, 4, 5, 6, 7]",f,m,I,Vine,3,3,3,3
+601,Vicia,caroliniana,wood vetch,Fabaceae,"[3, 4, 5, 6, 7, 8, 9]",ds,m,l,Vine,1,5,1,5
+602,Vicia,cracca,Med vetch,Fabaceae,[6],fd,m,I,Vine,5,5,5,5
+603,Viola,canadensis,Canada violet,Violaceae,[4],fd,m,s,Herb,6,1.33333333333333,0,0
+604,Viola,labradorica,Labrador violet,Violaceae,[3],fds,m,p,Herb,0.333333333333333,0.333333333333333,0,0
+605,Viola,odorata,sweet violet,Violaceae,[6],fd,m,s,Herb,6,8,0,0
+606,Viola,sororaria,blue violet,Violaceae,"[4, 5, 6, 7, 8]",fd,m,s,Herb,6,1,0,0
+607,Vitex,agnus-castus,chaste tree,Verbenaceae,"[6, 7, 8]",f,xm,l-vl,Shrub,8,20,8,20
+608,Vitis,labrusca and hybrids,fox grape,Vitaceae,"[3, 4, 5, 6, 7, 8, 9]",f,xmh,h,Vine,35,35,20,35
+609,Vitis,riparia,riverbank grape,Vitaceae,"[2, 3, 4, 5, 6]",f,xmh,h,Vine,35,35,20,35
+610,Vitis,rotundifolia,muscadine grape,Vitaceae,"[7, 8, 9, 10]",f,m,h,Vine,12,20,12,20
+611,Vitis,vinifera,grape,Vitaceae,"[6, 7, 8, 9]",f,xm,h,Vine,12,20,12,20
+612,Waldsteinia,fragarioides,barren strawberry,Rosaceae,"[4, 5, 6, 7]",fds,xm,p-s,Herb,4,0.666666666666667,0,0
+613,Wisteria,floribunda,Japanese wisteria,Fabaceae,"[4, 5, 6, 7, 8, 9]",f,m,h,Vine,30,50,30,50
+614,Wisteria,frutescens,American wisteria,Fabaceae,[5],fd,m,h,Vine,30,40,30,40
+615,Wisteria,macrostachya,Kentucky wisteria,Fabaceae,"[5, 6, 7, 8, 9]",fd,mh,h,Vine,20,35,12,20
+616,Woodwardia,areoiata,netted chain fern,Blechnaceae,"[4, 5, 6, 7, 8, 9]",ds,mh,s,Herb,12,1.5,0,0
+617,Woodwardia,virginica,Virginia chain fern,Blechnaceae,"[3, 4, 5, 6, 7, 8, 9, 10]",ds,mh,m,Herb,18,2,0,0
+618,x Sorbaronia,hybrid,aronia x mountain ash,Rosaceae,[3],f,m,d,Tree,10,10,10,10
+619,x Sorbocrataegus,hybrid,haw x mountain ash,Rosaceae,[3],f,m,d,Tree,10,10,10,10
+620,x Sorbopyrus,hybrid,pear x mountain ash,Rosaceae,[3],f,m,d-s,Tree,10,25,10,25
+621,Xanthoceras,sorbifolium,yellowhorn,Sapindaceae,"[5, 6, 7]",f,m,s,Tree,18,24,18,24
+622,Yucca,baccata,banana yucca,Agavaceae,[5],f,xm,s-m,Shrub,3,4,3,4
+623,Zanthoxylum,americanum,prickly ash,Rutaceae,[3],f,xm,s-m,Tree,20,35,20,35
+624,Zanthoxylum,piperitum,Japanese pepper tree,Rutaceae,[7],fd,m,m,Shrub,6,6,6,6
+625,Zizia,aptera,heart-leaved alexanders,Apiaceae,[4],fd,m,m,Herb,2,2,2,2
+626,Zizia,aurea,golden alexanders,Apiaceae,[4],fd,m,s-m,Herb,12,2.5,12,2
+627,Ziziphus,jujuba,jujube,Rhamnaceae,"[6, 7, 8, 9]",f,xm,s-m,Tree,15,30,15,30

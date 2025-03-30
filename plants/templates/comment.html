@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block title %}Add a comment{% endblock %}
+
+{% block content %}
+    {% if comment %}
+        <h2>Your comment has been added.</h2>
+        <p><a href="{% url 'plants:plant_detail' plant.slug %}">Back to {{ plant }}</a></p>
+    {% else %}
+        {% include "includes/comment_form.html" %}
+    {% endif %}
+{% endblock %}

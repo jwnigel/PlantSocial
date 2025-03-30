@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Forest Design</title>
+    <link rel="stylesheet" href="../../plants/static/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Nunito:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <!-- Navigation menu, logo, etc. -->
+    </header>
+        <main>
+        <!-- Content block, to be overridden by child templates -->
+        <form method="get">
+            <div>
+                <label for="light">Light</label>
+                <input type="text" name="light">
+            </div>
+
+            <div>
+                <label for="moisture">Moisture</label>
+                <input type="text" name="moisture">
+            </div>
+
+            <div>
+                <label for="form">Form</label>
+                <input type="text" name="form">
+            </div>
+
+            <button type="submit">Filter</button>
+        </form>
+    
+        <p class="db-list-plant-name">Chinese chestnut</p>
+        <p class="db-list-plant-name">Chinese chestnut</p>
+        <p class="db-list-plant-name">Chinese chestnut</p>
+        <p class="db-list-plant-name">Chinese chestnut</p>
+
+        
+
+        </main>
+    <footer>
+        <!-- Footer content, copyright, etc. -->
+    </footer>
+</body>
+</html>
+
+
+<!-- genus = models.CharField(max_length=50)
+species = models.CharField(max_length=50)
+slug = models.SlugField(max_length=120, unique=False)
+
+common_name = models.CharField(max_length=100)
+family = models.CharField(max_length=30)
+zones = models.JSONField(blank=True, default=list)
+light = models.CharField(
+    max_length=3,
+    validators=[RegexValidator(regex='^[fds]{1,3}$')],    
+)
+moisture = models.CharField(
+    max_length=3,
+    validators=[RegexValidator(regex='^[xmh]{1,3}$')],
+)
+form = models.CharField(
+    max_length=10,
+    choices=[('Herb', 'Herb'),
+    ('Shrub', 'Shrub'),
+    ('Tree', 'Tree'),
+    ('Bamboo', 'Bamboo'),
+    ('Vine', 'Vine')],
+)
+form_size = models.CharField(max_length=5)
+min_h = models.FloatField()
+max_h = models.FloatField()
+min_w = models.FloatField()
+max_w = models.FloatField()
+description = models.TextField()  -->

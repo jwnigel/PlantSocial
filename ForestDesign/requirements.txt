@@ -1,0 +1,5 @@
+Django==5.1.1
+django-taggit==5.0.1
+requests==2.31.0  # iNaturalist photo downloads
+Pillow==10.2.0    # ImageField
+openai==1.12.0    # To generate plant descriptions
