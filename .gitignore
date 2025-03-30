@@ -1,2 +1,5 @@
 cert.crt
 cert.key
+.env
+*.env
+config.ini

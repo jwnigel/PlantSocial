@@ -1,5 +1,27 @@
 from django.contrib import admin
-from .models import Plant, Image, Comment
+from .models import Plant, Image, Comment, PlantTag, PlantTagCategory
+
+
+@admin.register(PlantTagCategory)
+class PlantTagCategoryAdmin(admin.ModelAdmin):
+    list_display = ['name', 'emoji', 'color']
+    search_fields = ['name']
+
+
+@admin.register(PlantTag)
+class PlantTagAdmin(admin.ModelAdmin):
+    list_display = ['name', 'get_category_emoji', 'get_category_color']
+    search_fields = ['name']
+    list_filter = ['category']
+    
+    def get_category_emoji(self, obj):
+        return obj.category.emoji if obj.category else ''
+    get_category_emoji.short_description = 'Emoji'
+    
+    def get_category_color(self, obj):
+        return obj.category.color if obj.category else ''
+    get_category_color.short_description = 'Color'
+
 
 class ImageInline(admin.TabularInline):
     model = Image
