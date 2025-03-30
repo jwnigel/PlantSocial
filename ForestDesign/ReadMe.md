@@ -1,4 +1,4 @@
-# 🌿 ForestDesign
+# 🌿 PlantSocial
 
 A Django-powered plant database and design tool for garden enthusiasts! 
 
