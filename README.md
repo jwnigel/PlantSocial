@@ -1,5 +1,5 @@
-# 🌿 PlantSocial
-A Django-powered plant database and design tool for garden enthusiasts! 
+# PlantSocial
+A Django-powered plant database and design tool for gardeners, farmers, orchadists, and anyone else interested in planting something! 🌿 
 
 ## 🌱 Features
 - Plant database with detailed information ℹ️
@@ -10,6 +10,7 @@ A Django-powered plant database and design tool for garden enthusiasts!
 - Filter and search to find plants 🔎
 
 ## 🔜 Upcoming Features
+- [ ] Germination and growing information -- guides to start your own plants from seed!
 - [ ] Wiki photos and descriptions -- allow users to upload their own photos and edit plant descriptions 
 - [ ] LLM summary of user comments -- like Amazon reviews, create short LLM summaries of user experience with plant. Switch to open source LLM.
 - [ ] Emoji-based plant tags. Custom django-taggit implementation
