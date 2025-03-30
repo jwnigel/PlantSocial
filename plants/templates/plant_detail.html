@@ -32,10 +32,9 @@
             </div>
             <div class="tag-container">
                 <div class="tags-wrapper">
-                    {% for emo in emojis.all %}
-                    <a href="{% url 'plants:db_view_by_tag' tag.slug %}" class="tag-anchor {{ tag }}-tag">
-                        {{ emo.emoji }}
-                    </a>
+                    {% for emoji in emojis %}
+                    <!-- commenting out href link for now -->
+                    {{ emoji }}
                     {% empty %}
                     <span>No tags added.</span>
                     {% endfor %}

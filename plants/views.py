@@ -56,7 +56,14 @@ class PlantDetailView(View):
         comments = plant.comments.filter(active=True)
         tag_form = TagForm()
         comment_form = CommentForm()
-        context = {'plant': plant, 'emojis': [TAG_EMOJIS.get(tag.name) for tag in plant.tags.all()],'comments': comments, 'comment_form': comment_form, 'tag_form': tag_form}
+        context = {'plant': plant, 
+                   'emojis': [TAG_EMOJIS.get(tag.name) for tag in plant.tags.all()],
+                   'comments': comments, 
+                   'comment_form': comment_form, 
+                   'tag_form': tag_form}
+        print(f"Plant: {plant}")
+        print(f"Tags: {plant.tags.all()}")
+        print(f"Emojis: {context['emojis']}")
         return render(request, 'plant_detail.html', context)
 
     @method_decorator(require_GET)
@@ -66,8 +73,9 @@ class PlantDetailView(View):
 
         if not main_image:
             # If still no image, try to get one from iNaturalist
-            image_url = get_inaturalist_image_urls(plant.genus, plant.species)
-            if image_url:
+            image_urls = get_inaturalist_image_urls(plant.genus, plant.species)
+            if image_urls:
+                image_url = image_urls[0]
                 try:
                     original_image_url = image_url.replace('square', 'original')
                     response = requests.get(original_image_url)

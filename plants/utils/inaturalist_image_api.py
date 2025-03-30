@@ -23,7 +23,7 @@ def get_inaturalist_image_urls(genus, species, num_results=10):
         data = response.json()
         results = data.get("results", [])
         
-        plant_images = results[:].get("photos", [])
+        plant_images = results[0].get("photos", [])
         if plant_images:
             urls = []
             for image in plant_images:
